@@ -17,6 +17,9 @@
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+	body {
+		font-size: 1.5rem;
+	}
 		.jumbotron {
 			max-height: 50vh;
 		}
