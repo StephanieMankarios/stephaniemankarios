@@ -4,8 +4,6 @@
  *-----------------------------------------------------------------*/
 var gulp = require('gulp'),
 	plumber = require('gulp-plumber'),
-	browserSync = require('browser-sync'),
-	reload = browserSync.reload,
 	uglify = require('gulp-uglify'),
 	rename = require('gulp-rename'),
 	sass = require('gulp-sass'),
@@ -15,6 +13,8 @@ var gulp = require('gulp'),
 	del = require('del'),
 	imagemin = require('gulp-imagemin'),
 	data = require('gulp-data'),
+	browserSync = require('browser-sync'),
+	reload = browserSync.reload,
 	nunjucksRender = require('gulp-nunjucks-render');
 
 var sassOptions = {
@@ -68,20 +68,31 @@ gulp.task('nunjucks', function () {
 /*-----------------------------------------------------------------
  * SASS TASK
  *-----------------------------------------------------------------*/
-gulp.task('styles', function () {
-	gulp.src('app/scss/**/*.scss')
+//gulp.task('styles', function () {
+//	gulp.src('app/assets/scss/*.scss')
+//		.pipe(plumber())
+//		 .pipe(sourcemaps.init())
+//		 .pipe(sass(sassOptions).on('error', sass.logError))
+//		.pipe(cleanCSS({
+//			compatibility: 'ie8'
+//		}))
+//		.pipe(autoprefixer('last 2 versions'))
+//		 .pipe(sourcemaps.write())
+//		 .pipe(gulp.dest('app/assets/css/'))
+//		.pipe(reload({
+//			stream: true
+//		}));
+//})
+
+
+gulp.task('styles', function() {
+	gulp.src('app/assets/scss/*.scss')
 		.pipe(plumber())
-		// .pipe(sourcemaps.init())
-		// .pipe(sass(sassOptions).on('error', sass.logError))
-		.pipe(cleanCSS({
-			compatibility: 'ie8'
-		}))
+		.pipe(sass().on('error', sass.logError))
+    .pipe(cleanCSS({compatibility: 'ie8'}))
 		.pipe(autoprefixer('last 2 versions'))
-		// .pipe(sourcemaps.write())
-		// .pipe(gulp.dest('app/css/'))
-		.pipe(reload({
-			stream: true
-		}));
+		.pipe(gulp.dest('app/assets/css/'))
+		.pipe(reload({stream:true}));
 })
 
 /*-----------------------------------------------------------------
@@ -98,9 +109,9 @@ gulp.task('html', function () {
  * IMAGE COMPRESSION TASK
  *-----------------------------------------------------------------*/
 gulp.task('imagemin', function () {
-	gulp.src('app/uncomp-img/**/*')
+	gulp.src('app/images/**/*')
 		.pipe(imagemin())
-		.pipe(gulp.dest('app/img'))
+		.pipe(gulp.dest('app/images/**/*'))
 });
 
 /*-----------------------------------------------------------------
@@ -161,13 +172,12 @@ gulp.task('build:serve', function () {
 gulp.task('watch', function () {
 	//	gulp.watch(['app/js/**/*.js', 'app/scss/**/*.scss'], ['scripts', 'styles'])
 	gulp.watch('app/assets/js/scripts.js', ['scripts']);
-	gulp.watch('app/assets/css', ['styles']);
-	// gulp.watch('app/scss/**/*.scss', ['styles']);
+	 gulp.watch('app/assets/scss/*.scss', ['styles']);
 	gulp.watch('app/**/*.html', ['html']);
 });
 
 /*-----------------------------------------------------------------
  * DEFAULT TASK - a task that calls other tasks
  *-----------------------------------------------------------------*/
-gulp.task('default', ['scripts', 'styles', 'nunjucks', 'html', 'imagemin', 'browser-sync', 'watch']);
-gulp.task('default', ['scripts', 'styles', 'html', 'imagemin', 'browser-sync', 'watch']);
+//gulp.task('default', ['scripts', 'styles', 'nunjucks', 'html', 'imagemin', 'browser-sync', 'watch']);
+gulp.task('default', ['scripts', 'styles', 'html', 'browser-sync', 'watch']);
