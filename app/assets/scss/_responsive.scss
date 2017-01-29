@@ -11,13 +11,16 @@
         padding: 15px 10px;
     }
 		.jumbotron {
-			height: 100%;
+			max-height: 60vh;
 	}
 }
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
-    .main-menu .navbar-brand > img {
+		.jumbotron {
+			max-height: 50vh;
+		}
+		.main-menu .navbar-brand > img {
         display: block;
         margin-right: 0;
         padding: 14px 0
@@ -86,7 +89,10 @@
 }
 
 /* xs */
-@media (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
+		.jumbotron {
+			max-height: 38vh;
+		}
     .show-search {
         top: 80px;
     }
@@ -153,6 +159,7 @@
 
 /* XS Portrait */
 @media (max-width: 479px) {
-
-
+	.jumbotron {
+			max-height: 38vh;
+		}
 }
