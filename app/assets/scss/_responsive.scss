@@ -3,6 +3,10 @@
     .show-search {
         right: 20%;
     }
+	.post-list .post-content {
+    padding: 0 20px 0 0;
+    overflow: hidden;
+	}
 }
 
 /* md */
@@ -12,6 +16,10 @@
     }
 		.jumbotron {
 			max-height: 60vh;
+	}
+	.post-list .post-content {
+			padding: 0 20px 0 0;
+			overflow: hidden;
 	}
 }
 
@@ -23,6 +31,9 @@
 		.jumbotron {
 			max-height: 50vh;
 		}
+	.post-list .post-content {
+		margin-bottom: 30px;
+	}
 		.main-menu .navbar-brand > img {
         display: block;
         margin-right: 0;
@@ -96,6 +107,7 @@
 		.jumbotron {
 			max-height: 38vh;
 		}
+	
     .show-search {
         top: 80px;
     }
@@ -165,4 +177,8 @@
 	.jumbotron {
 			max-height: 38vh;
 		}
+		.post-list .post-content {
+		margin-bottom: 20px;
+		}
+
 }
