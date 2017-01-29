@@ -3,12 +3,18 @@
 
 .jumbotron {
    background-image: url("../images/photos/main-hero.jpg");
-/*		background-size: cover;*/
-		height: 50vh;
-		width: 100%;
-	  background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -webkit-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
+		background-size: 100% auto;
+//	background-position: center;
+	background-repeat: no-repeat;
+		height: 70vh;
+//		width: 100%;
+//	  background-size: 100% 100%;
+//    -moz-background-size: 100% 100%;
+//    -webkit-background-size: 100% 100%;
+//    -o-background-size: 100% 100%;
 }
 	
+
+//http://www.melyssagriffin.com/wp-content/themes/melyssa-griffin/images/welcome.jpg
+//width: 3200
+//height: 575
