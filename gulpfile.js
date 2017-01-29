@@ -68,32 +68,20 @@ gulp.task('nunjucks', function () {
 /*-----------------------------------------------------------------
  * SASS TASK
  *-----------------------------------------------------------------*/
-//gulp.task('styles', function () {
-//	gulp.src('app/assets/scss/*.scss')
-//		.pipe(plumber())
-//		 .pipe(sourcemaps.init())
-//		 .pipe(sass(sassOptions).on('error', sass.logError))
-//		.pipe(cleanCSS({
-//			compatibility: 'ie8'
-//		}))
-//		.pipe(autoprefixer('last 2 versions'))
-//		 .pipe(sourcemaps.write())
-//		 .pipe(gulp.dest('app/assets/css/'))
-//		.pipe(reload({
-//			stream: true
-//		}));
-//})
-
-
 gulp.task('styles', function() {
 	gulp.src('app/assets/scss/*.scss')
 		.pipe(plumber())
-		.pipe(sass().on('error', sass.logError))
-    .pipe(cleanCSS({compatibility: 'ie8'}))
+		.pipe(sourcemaps.init())
+		.pipe(sass(sassOptions).on('error', sass.logError))
+//    .pipe(cleanCSS({compatibility: 'ie8'}))
 		.pipe(autoprefixer('last 2 versions'))
+    .pipe(sourcemaps.write())
 		.pipe(gulp.dest('app/assets/css/'))
 		.pipe(reload({stream:true}));
 })
+
+
+
 
 /*-----------------------------------------------------------------
  * HTML TASK

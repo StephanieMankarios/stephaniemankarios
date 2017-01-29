@@ -6,10 +6,13 @@
 }
 
 /* md */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1399px) {
     .nav > li > a {
         padding: 15px 10px;
     }
+		.jumbotron {
+			height: 100%;
+	}
 }
 
 /* sm */
