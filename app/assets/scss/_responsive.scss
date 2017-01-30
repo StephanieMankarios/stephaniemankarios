@@ -28,9 +28,17 @@
 	body {
 		font-size: 1.5rem;
 	}
-		.jumbotron {
+	.jumbotron {
 			max-height: 50vh;
 		}
+	
+	.navbar-default	.nav>li>a {
+    padding: 35px 25px 0;
+	}
+	.navbar-default .i_con a i {
+    padding: 10px 10px 25px; //25px 10px;
+	}
+	
 	.post-list .post-content {
 		margin-bottom: 30px;
 	}
