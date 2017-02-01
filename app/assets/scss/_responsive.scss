@@ -143,13 +143,18 @@
 /* xs */
 @media (max-width: 767px) {
     
-      .jumbotron {
+		.jumbotron {
         height: 40vh;
     }
     .nav>li>a {
     padding: 10px 30px;
     }
-
+	  .navbar-brand {
+			height: 75px;
+			img {
+					height: 50px;
+			}
+    }
 
 
 
