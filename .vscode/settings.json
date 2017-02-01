@@ -1,6 +1,6 @@
 {
-    "window.zoomLevel": 1,
-    "editor.fontSize": 14,
+    "window.zoomLevel": 0,
+    "editor.fontSize": 17,
     "vsicons.presets.angular": false,
     "editor.hover": false,
     "vsicons.projectDetection.autoReload": true,
