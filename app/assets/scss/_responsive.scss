@@ -1,6 +1,10 @@
 /* lg */
 
 @media (min-width: 1400px) {
+	.jumbotron .text-center p {
+			font-size: 5rem;
+			line-height: 6.5rem;
+	}
 	.show-search {
 		right: 20%;
 	}
@@ -17,12 +21,21 @@
 	}
 }
 
+@media (min-width: 1200px) and (max-width: 1399px) {
+	.navbar-brand img {
+		height: 60px;
+	}
+}
 
 /* md */
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.jumbotron {
 		height: 58vh;
+		.text-center p {
+			font-size: 4rem;
+			line-height: 5rem;
+		}
 	}
 	.nav>li>a {
 		// padding: 15px 10px;
@@ -49,6 +62,10 @@
 	}
 	.jumbotron {
 		height: 50vh;
+		.text-center p {
+			font-size: 3.5rem;
+			line-height: 4.5rem;
+		}
 	}
 	.navbar-brand img {
 		height: 90px;
@@ -124,6 +141,14 @@
 @media (max-width: 767px) {
 	.jumbotron {
 		height: 40vh;
+		p {
+			font-size: 1.5rem;
+			line-height: 2.5rem;
+			text-align: left;
+		}
+		a {
+			text-align: left;
+		}
 	}
 	.nav>li>a {
 		padding: 10px 30px;
