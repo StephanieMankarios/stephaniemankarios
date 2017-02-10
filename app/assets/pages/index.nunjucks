@@ -46,24 +46,31 @@
 				<div class="col-md-8">
 					<article class="post">
 						<div class="post-thumb">
-							<a href="blog.html"><img src="assets/images/blog-1.jpg" alt=""></a>
+							<a href="blog.html"><img src="assets/images/blog/coconutmilk.jpg" alt=""></a>
 							<a href="blog.html" class="post-thumb-overlay text-center">
 								<div class="text-uppercase text-center">View Post</div>
 							</a>
 						</div>
 						<div class="post-content">
 							<header class="entry-header text-center text-uppercase">
-								<h6><a href="index-list.html#"> Travel</a></h6>
-								<h1 class="entry-title"><a href="blog.html">Home is peaceful place</a></h1>
+								<h6><a href="index-list.html#"> Health &amp; Wellness</a></h6>
+								<h1 class="entry-title"><a href="coconutmilk.html">How to take a Coconut milk bath &amp; Why it's good for you 
+							</a></h1>
 							</header>
 							<div class="entry-content">
-								<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tevidulabore et dolore magna aliquyam
-									erat, sed diam voluptua. At vero eos et accusam et justo duo dolores rebum. Stet clita kasd gubergren, no sea takimata
-									sanctus est Lorem ipsum dolor sit am Lorem ipsum dolor sitconsetetur sadipscing elitr, sed diam nonumy eirmod tempor
-									invidunt ut labore et dolore maliquyam erat, sed diam voluptua.
+								<p>If you're in need of a deliciously rejuvenating experience (without the hefty costs of going to the spa), you've come to the right place.  
+							 <br><br>
+								If you're like most people, your body could really use some TLC, am I right? 
+								Perhaps you: work too much, have kids, don't take the time to take care of yourself, or don't know how to.  
+								<br><br>
+								I'm here to share with you an exquisite bath recipe that will leave you feeling like a brand new Goddess (or God, and men, I do encourage you to do this too!) 
+								<br><br>
+								I will share with you all the ingredients involved in making this the best experience possible, but feel free to modify and add or remove aspects according to your needs and what YOUR body craves.  
+								<br><br>
+								I like to take these baths once a week, but if you do them more often, then honey, by all means, indulge! 
 								</p>
 								<div class="btn-continue-reading text-center text-uppercase">
-									<a href="blog.html" class="more-link">Continue Reading</a>
+									<a href="coconut-milk.html" class="more-link">Continue Reading</a>
 								</div>
 							</div>
 							<div class="social-share">

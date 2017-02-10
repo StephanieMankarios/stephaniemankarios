@@ -160,8 +160,9 @@ gulp.task('build:serve', function () {
 gulp.task('watch', function () {
 	//	gulp.watch(['app/js/**/*.js', 'app/scss/**/*.scss'], ['scripts', 'styles'])
 	gulp.watch('app/assets/js/scripts.js', ['scripts']);
-	 gulp.watch('app/assets/scss/*.scss', ['styles']);
+	gulp.watch('app/assets/scss/*.scss', ['styles']);
 	gulp.watch('app/**/*.html', ['html']);
+	gulp.watch('app/**/*.nunjucks', ['nunjucks']);
 });
 
 /*-----------------------------------------------------------------
