@@ -1,9 +1,16 @@
 /* lg */
 
 @media (min-width: 1400px) {
-	.jumbotron .text-center p {
+	.jumbotron {
+		.text-center p {
+			font-family: LibreBaskervilleRegular;
 			font-size: 5rem;
 			line-height: 6.5rem;
+		}
+		a {
+			background-color: $hover-color;
+			border-color: $hover-color;
+		}
 	}
 	.show-search {
 		right: 20%;
@@ -25,6 +32,17 @@
 	.navbar-brand img {
 		height: 60px;
 	}
+		.jumbotron {
+		.text-center p {
+			font-family: LibreBaskervilleRegular;
+			font-size: 5rem;
+			line-height: 6.5rem;
+		}
+		a {
+			background-color: $hover-color;
+			border-color: $hover-color;
+		}
+	}
 }
 
 /* md */
@@ -35,6 +53,10 @@
 		.text-center p {
 			font-size: 4rem;
 			line-height: 5rem;
+		}
+		a {
+			background-color: $hover-color;
+			border-color: $hover-color;
 		}
 	}
 	.nav>li>a {
@@ -65,6 +87,10 @@
 		.text-center p {
 			font-size: 3.5rem;
 			line-height: 4.5rem;
+		}
+		a {
+			background-color: $hover-color;
+			border-color: $hover-color;
 		}
 	}
 	.navbar-brand img {
@@ -147,7 +173,8 @@
 			text-align: left;
 		}
 		a {
-			text-align: left;
+			background-color: $hover-color;
+			border-color: $hover-color;
 		}
 	}
 	.nav>li>a {
@@ -222,6 +249,10 @@
 @media (max-width: 479px) {
 	.jumbotron {
 		height: 37vh;
+		a {
+			background-color: $hover-color;
+			border-color: $hover-color;
+		}
 	}
 	.navbar-brand {
 		height: 75px;
