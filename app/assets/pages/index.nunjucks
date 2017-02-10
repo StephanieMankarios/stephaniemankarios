@@ -194,6 +194,10 @@
 						<li><a href="index-list.html#"><i class="fa fa-angle-double-right"></i></a></li>
 					</ul>
 				</div>
+
+{% include "partials/sidebar.nunjucks" %}
+
 {% endblock %}
+
 
   

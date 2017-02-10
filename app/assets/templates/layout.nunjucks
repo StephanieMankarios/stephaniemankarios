@@ -89,268 +89,10 @@ ef="assets/css/test.css">-->
 
 
 
-<div class="col-md-4" data-sticky_column>
-					<div class="primary-sidebar">
-						<aside class="widget about-me-widget">
-							<div class="about-me-img">
-								<div class="about-me-content text-center">
-									<img src="assets/images/sidebar-me-test.jpg" alt="" class="img-me">
-									<h3 class="text-uppercase">Stephanie Mankarios</h3>
-									<p><strong>Hey, I’m Steph!</strong><br> I help people create change and grow, to feel happiness, find purpose, and
-										know inner peace.
-									</p>
-								</div>
-							</div>
-							<!--<div class="social-share">
-								<ul class="text-center text-center">
-									<li><a class="s-facebook" href=""><i class="fa fa-facebook"></i></a></li>
-									<li><a class="s-twitter" href=""><i class="fa fa-twitter"></i></a></li>
-									<li><a class="s-google-plus" href=""><i class="fa fa-google-plus"></i></a></li>
-									<li><a class="s-linkedin" href=""><i class="fa fa-linkedin"></i></a></li>
-									<li><a class="s-instagram" href=""><i class="fa fa-instagram"></i></a></li>
-								</ul>
-							</div>-->
-						</aside>
 
 
 
-          <aside class="widget news-letter">
-							<h3 class="widget-title text-uppercase text-center">Get Newsletter</h3>
-							<form action="#">
-								<input type="email" placeholder="Your email address">
-								<input type="submit" value="Subscribe Now" class="text-uppercase text-center btn btn-subscribe">
-							</form>
-						</aside>
 
-
-
-					<aside class="widget news-letter">
-						<form action="#">
-							<input type="email" placeholder="Search topics">
-							<input type="submit" value="Search" class="text-uppercase text-center btn btn-subscribe">
-						</form>
-					</aside>
-						
-					
-						
-						<!--<aside class="widget">
-                            <h3 class="widget-title text-uppercase text-center">Popular Posts</h3>
-                            <div class="popular-post">
-                                <a href="index-list.html#" class="popular-img"><img src="assets/images/p1.jpg" alt="">
-                                    <div class="p-overlay"></div>
-                                </a>
-                                <div class="p-content">
-                                    <a href="index-list.html#" class="text-uppercase">Home is peaceful Place</a>
-                                    <span class="p-date">February 15, 2016</span>
-                                </div>
-                            </div>
-                            <div class="popular-post">
-                                <a href="index-list.html#" class="popular-img"><img src="assets/images/p1.jpg" alt="">
-                                    <div class="p-overlay"></div>
-                                </a>
-                                <div class="p-content">
-                                    <a href="index-list.html#" class="text-uppercase">Home is peaceful Place</a>
-                                    <span class="p-date">February 15, 2016</span>
-                                </div>
-                            </div>
-                            <div class="popular-post">
-                                <a href="index-list.html#" class="popular-img"><img src="assets/images/p1.jpg" alt="">
-                                    <div class="p-overlay"></div>
-                                </a>
-                                <div class="p-content">
-                                    <a href="index-list.html#" class="text-uppercase">Home is peaceful Place</a>
-                                    <span class="p-date">February 15, 2016</span>
-                                </div>
-                            </div>
-                        </aside>
-                        <aside class="widget">
-                            <h3 class="widget-title text-uppercase text-center">Featured Posts</h3>
-                            <div id="widget-feature" class="owl-carousel">
-                                <div class="item">
-                                    <div class="feature-content">
-                                        <img src="assets/images/p1.jpg" alt="">
-                                        <a href="index-list.html#" class="overlay-text text-center">
-                                            <h5 class="text-uppercase">Home is peaceful</h5>
-                                            <p>Lorem ipsum dolor sit ametsetetur sadipscing elitr, sed </p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="feature-content">
-                                        <img src="assets/images/p2.jpg" alt="">
-                                        <a href="index-list.html#" class="overlay-text text-center">
-                                            <h5 class="text-uppercase">Home is peaceful</h5>
-                                            <p>Lorem ipsum dolor sit ametsetetur sadipscing elitr, sed </p>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="feature-content">
-                                        <img src="assets/images/p3.jpg" alt="">
-                                        <a href="index-list.html#" class="overlay-text text-center">
-                                            <h5 class="text-uppercase">Home is peaceful</h5>
-                                            <p>Lorem ipsum dolor sit ametsetetur sadipscing elitr, sed </p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </aside>
-                        <aside class="widget pos-padding">
-                            <h3 class="widget-title text-uppercase text-center">Recent Posts</h3>
-                            <div class="thumb-latest-posts">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <a href="index-list.html#" class="popular-img"><img src="assets/images/r-p.jpg" alt="">
-                                            <div class="p-overlay"></div>
-                                        </a>
-                                    </div>
-                                    <div class="p-content">
-                                        <a href="index-list.html#" class="text-uppercase">Home is peaceful Place</a>
-                                        <span class="p-date">February 15, 2016</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="thumb-latest-posts">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <a href="index-list.html#" class="popular-img"><img src="assets/images/r-p.jpg" alt="">
-                                            <div class="p-overlay"></div>
-                                        </a>
-                                    </div>
-                                    <div class="p-content">
-                                        <a href="index-list.html#" class="text-uppercase">Home is peaceful Place</a>
-                                        <span class="p-date">February 15, 2016</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="thumb-latest-posts">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <a href="index-list.html#" class="popular-img"><img src="assets/images/r-p.jpg" alt="">
-                                            <div class="p-overlay"></div>
-                                        </a>
-                                    </div>
-                                    <div class="p-content">
-                                        <a href="index-list.html#" class="text-uppercase">Home is peaceful Place</a>
-                                        <span class="p-date">February 15, 2016</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="thumb-latest-posts">
-                                <div class="media">
-                                    <div class="media-left">
-                                        <a href="index-list.html#" class="popular-img"><img src="assets/images/r-p.jpg" alt="">
-                                            <div class="p-overlay"></div>
-                                        </a>
-                                    </div>
-                                    <div class="p-content">
-                                        <a href="index-list.html#" class="text-uppercase">Home is peaceful Place</a>
-                                        <span class="p-date">February 15, 2016</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </aside>-->
-<!--
-						<aside class="widget border pos-padding">
-							<h3 class="widget-title text-uppercase text-center">Categories</h3>
-							<ul>
-								<li>
-									<a href="">Food &amp; Drinks</a>
-									<span class="post-count pull-right"> (2)</span>
-								</li>
-								<li>
-									<a href="">Travel</a>
-									<span class="post-count pull-right"> (2)</span>
-								</li>
-								<li>
-									<a href="">Business</a>
-									<span class="post-count pull-right"> (2)</span>
-								</li>
-								<li>
-									<a href="">Story</a>
-									<span class="post-count pull-right"> (2)</span>
-								</li>
-								<li>
-									<a href="">DIY &amp; Tips</a>
-									<span class="post-count pull-right"> (2)</span>
-								</li>
-								<li>
-									<a href="">Lifestyle</a>
-									<span class="post-count pull-right"> (2)</span>
-								</li>
-							</ul>
-						</aside>
--->
-						
-						
-					<aside class="widget sidebar sidebar-primary widget-area">
-						<section id="text-41" class="widget-categories widget_text">
-							<div class="widget-wrap">
-								<h3 class="widgettitle widget-title-categories" style="margin-bottom: 25px;">I Want to Read&#8230;</h3>
-								<div class="textwidget">
-									<div class="read">
-										<div class="read-1">
-											<a class="block" href="#"><img src="assets/images/social-media/tree-of-life.png" alt="self development" /> <span class="read-link">self<br />development</span></a>
-										</div>
-										<div class="read-2">
-											<a class="block" href="#"><img src="assets/images/social-media/yoga.png" alt="wellness & health" /> <span class="read-link">wellness<br />&amp; health</span></a>
-										</div>
-										<div class="read-3">
-											<a class="block" href="#"><img src="assets/images/social-media/cairn.png" alt="spirituality" /> <span class="read-link">spirituality</span></a>
-										</div>
-										<div class="read-4">
-											<a class="block" href="#"><img src="assets/images/social-media/heart.png" alt="happiness & love" /> <span class="read-link">happiness<br />&amp; love</span></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section>
-					</aside>
-
-						
-						
-						<aside class="widget pos-padding">
-							<h3 class="widget-title text-uppercase text-center">Follow@Instagram</h3>
-							<div class="instagram-follow">
-								<a href="index-list.html#">
-									<img src="assets/images/ins-flow.jpg" alt="">
-								</a>
-								<a href="index-list.html#">
-									<img src="assets/images/ins-flow.jpg" alt="">
-								</a>
-								<a href="index-list.html#">
-									<img src="assets/images/ins-flow.jpg" alt="">
-								</a>
-								<a href="index-list.html#">
-									<img src="assets/images/ins-flow.jpg" alt="">
-								</a>
-								<a href="index-list.html#">
-									<img src="assets/images/ins-flow.jpg" alt="">
-								</a>
-								<a href="index-list.html#">
-									<img src="assets/images/ins-flow.jpg" alt="">
-								</a>
-								<a href="index-list.html#">
-									<img src="assets/images/ins-flow.jpg" alt="">
-								</a>
-								<a href="index-list.html#">
-									<img src="assets/images/ins-flow.jpg" alt="">
-								</a>
-								<a href="index-list.html#">
-									<img src="assets/images/ins-flow.jpg" alt="">
-								</a>
-							</div>
-						</aside>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end main content-->
-	
-	
-	
-	
 <section class="section secondary thin-gray">
 	<div class="container">
 		<h2 class="section-title">Get connected. Be inspired.</h2>
@@ -358,16 +100,16 @@ ef="assets/css/test.css">-->
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in iaculis metus, non viverra nunc.</p>
 		</div>
 		<div class="section-body">
-			<div class="social text-center"> 
-				<a href="#" target="_blank" class="facebook large opacity">Facebook</a> 
-				<a href="#" target="_blank" class="twitter large opacity">Twitter</a> 
-				<a href="#" target="_blank" class="instagram large opacity">Instagram</a> 
-				<a href="#" target="_blank" class="youtube large opacity">Youtube</a> 
-				<a href="#" target="_blank" class="pinterest large opacity">Pinterest</a> 
-<!--				<a href="#" target="_blank" class="medium1 large opacity">Medium</a> </div>-->
-			<!-- social -->
+			<div class="social text-center">
+				<a href="#" target="_blank" class="facebook large opacity">Facebook</a>
+				<a href="#" target="_blank" class="twitter large opacity">Twitter</a>
+				<a href="#" target="_blank" class="instagram large opacity">Instagram</a>
+				<a href="#" target="_blank" class="youtube large opacity">Youtube</a>
+				<a href="#" target="_blank" class="pinterest large opacity">Pinterest</a>
+				<!--				<a href="#" target="_blank" class="medium1 large opacity">Medium</a> </div>-->
+				<!-- social -->
+			</div>
 		</div>
-	</div>
 </section>
 	
 	
@@ -379,134 +121,134 @@ ef="assets/css/test.css">-->
 	<!--footer start-->
 	<div id="footer">
 		<!--<div class="footer-instagram-section">
-            <h3 class="footer-instagram-title text-center text-uppercase">Instagram</h3>
-            <div id="footer-instagram" class="owl-carousel">
-                <div class="item">
-                    <a href=""><img src="assets/images/ins-1.jpg" alt=""></a>
-                </div>
-                <div class="item">
-                    <a href=""><img src="assets/images/ins-2.jpg" alt=""></a>
-                </div>
-                <div class="item">
-                    <a href=""><img src="assets/images/ins-3.jpg" alt=""></a>
-                </div>
-                <div class="item">
-                    <a href=""><img src="assets/images/ins-4.jpg" alt=""></a>
-                </div>
-                <div class="item">
-                    <a href=""><img src="assets/images/ins-5.jpg" alt=""></a>
-                </div>
-                <div class="item">
-                    <a href=""><img src="assets/images/ins-6.jpg" alt=""></a>
-                </div>
-                <div class="item">
-                    <a href=""><img src="assets/images/ins-7.jpg" alt=""></a>
-                </div>
-                <div class="item">
-                    <a href=""><img src="assets/images/ins-8.jpg" alt=""></a>
-                </div>
-            </div>
-        </div>-->
+				<h3 class="footer-instagram-title text-center text-uppercase">Instagram</h3>
+				<div id="footer-instagram" class="owl-carousel">
+					<div class="item">
+						<a href=""><img src="assets/images/ins-1.jpg" alt=""></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="assets/images/ins-2.jpg" alt=""></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="assets/images/ins-3.jpg" alt=""></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="assets/images/ins-4.jpg" alt=""></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="assets/images/ins-5.jpg" alt=""></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="assets/images/ins-6.jpg" alt=""></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="assets/images/ins-7.jpg" alt=""></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="assets/images/ins-8.jpg" alt=""></a>
+					</div>
+				</div>
+			</div>-->
 	</div>
 	<footer class="footer-widget-section">
 		<!--<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<aside class="footer-widget">
-						<div class="about-img"><img src="images/footer-unalome-logo.png" alt=""></div>
-						<div class="about-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-							magna aliquyam erat, sed voluptua. At vero eos et accusam et justo duo dlores et ea rebum magna text ar koto din.
-						</div>
-						<div class="address">
-							<h4 class="text-uppercase">contact Info</h4>
-							<p> 239 NK Street, Sunnyvale, CA, USA</p>
-							<p> Phone: +123 456 78900</p>
-							<p>StephanieMankarios@gmail.com</p>
-						</div>
-					</aside>
-				</div>
-				<div class="col-md-6">
-					<aside class="footer-widget">
-						<h3 class="widget-title text-uppercase">Testimonials</h3>
-						<div id="myCarousel" class="carousel slide" data-ride="carousel">
-							Indicator
-							<ol class="carousel-indicators">
-								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-								<li data-target="#myCarousel" data-slide-to="1"></li>
-								<li data-target="#myCarousel" data-slide-to="2"></li>
-							</ol>
-							<div class="carousel-inner" role="listbox">
-								<div class="item active">
-									<div class="single-review">
-										<div class="review-text">
-											<p>Lorem ipsum dolor sit amet, conssadipscing elitr, sed diam nonumy eirmod tempvidunt ut labore et dolore magna
-												aliquyam erat,sed diam voluptua. At vero eos et accusam justo duo dolores et ea rebum.gubergren no sea takimata
-												magna aliquyam eratma
-											</p>
-										</div>
-										<div class="author-id">
-											<img src="assets/images/author.png" alt="">
-											<div class="author-text">
-												<h4>Sophia</h4>
-												<h4>CEO</h4>
+				<div class="row">
+					<div class="col-md-6">
+						<aside class="footer-widget">
+							<div class="about-img"><img src="images/footer-unalome-logo.png" alt=""></div>
+							<div class="about-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+								magna aliquyam erat, sed voluptua. At vero eos et accusam et justo duo dlores et ea rebum magna text ar koto din.
+							</div>
+							<div class="address">
+								<h4 class="text-uppercase">contact Info</h4>
+								<p> 239 NK Street, Sunnyvale, CA, USA</p>
+								<p> Phone: +123 456 78900</p>
+								<p>StephanieMankarios@gmail.com</p>
+							</div>
+						</aside>
+					</div>
+					<div class="col-md-6">
+						<aside class="footer-widget">
+							<h3 class="widget-title text-uppercase">Testimonials</h3>
+							<div id="myCarousel" class="carousel slide" data-ride="carousel">
+								Indicator
+								<ol class="carousel-indicators">
+									<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myCarousel" data-slide-to="1"></li>
+									<li data-target="#myCarousel" data-slide-to="2"></li>
+								</ol>
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<div class="single-review">
+											<div class="review-text">
+												<p>Lorem ipsum dolor sit amet, conssadipscing elitr, sed diam nonumy eirmod tempvidunt ut labore et dolore magna
+													aliquyam erat,sed diam voluptua. At vero eos et accusam justo duo dolores et ea rebum.gubergren no sea takimata
+													magna aliquyam eratma
+												</p>
+											</div>
+											<div class="author-id">
+												<img src="assets/images/author.png" alt="">
+												<div class="author-text">
+													<h4>Sophia</h4>
+													<h4>CEO</h4>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="item">
-									<div class="single-review">
-										<div class="review-text">
-											<p>Lorem ipsum dolor sit amet, conssadipscing elitr, sed diam nonumy eirmod tempvidunt ut labore et dolore magna
-												aliquyam erat,sed diam voluptua. At vero eos et accusam justo duo dolores et ea rebum.gubergren no sea takimata
-												magna aliquyam eratma
-											</p>
-										</div>
-										<div class="author-id">
-											<img src="assets/images/author.png" alt="">
-											<div class="author-text">
-												<h4>Jessica</h4>
-												<h4>CEO</h4>
+									<div class="item">
+										<div class="single-review">
+											<div class="review-text">
+												<p>Lorem ipsum dolor sit amet, conssadipscing elitr, sed diam nonumy eirmod tempvidunt ut labore et dolore magna
+													aliquyam erat,sed diam voluptua. At vero eos et accusam justo duo dolores et ea rebum.gubergren no sea takimata
+													magna aliquyam eratma
+												</p>
+											</div>
+											<div class="author-id">
+												<img src="assets/images/author.png" alt="">
+												<div class="author-text">
+													<h4>Jessica</h4>
+													<h4>CEO</h4>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="item">
-									<div class="single-review">
-										<div class="review-text">
-											<p>Lorem ipsum dolor sit amet, conssadipscing elitr, sed diam nonumy eirmod tempvidunt ut labore et dolore magna
-												aliquyam erat,sed diam voluptua. At vero eos et accusam justo duo dolores et ea rebum.gubergren no sea takimata
-												magna aliquyam eratma
-											</p>
-										</div>
-										<div class="author-id">
-											<img src="assets/images/author.png" alt="">
-											<div class="author-text">
-												<h4>Joyce</h4>
-												<h4>CEO</h4>
+									<div class="item">
+										<div class="single-review">
+											<div class="review-text">
+												<p>Lorem ipsum dolor sit amet, conssadipscing elitr, sed diam nonumy eirmod tempvidunt ut labore et dolore magna
+													aliquyam erat,sed diam voluptua. At vero eos et accusam justo duo dolores et ea rebum.gubergren no sea takimata
+													magna aliquyam eratma
+												</p>
+											</div>
+											<div class="author-id">
+												<img src="assets/images/author.png" alt="">
+												<div class="author-text">
+													<h4>Joyce</h4>
+													<h4>CEO</h4>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</aside>
+						</aside>
+					</div>
+					<div class="col-md-4">
+						<aside class="footer-widget">
+							<h3 class="widget-title text-uppercase">Custom Category Post</h3>
+							<div class="custom-post">
+								<div>
+									<a href=""><img src="assets/images/footer-img.png" alt=""></a>
+								</div>
+								<div>
+									<a href="index-list.html#" class="text-uppercase">Home is peaceful Place</a>
+									<span class="p-date">February 15, 2016</span>
+								</div>
+							</div>
+						</aside>
+					</div>
 				</div>
-				<div class="col-md-4">
-                    <aside class="footer-widget">
-                        <h3 class="widget-title text-uppercase">Custom Category Post</h3>
-                        <div class="custom-post">
-                            <div>
-                                <a href=""><img src="assets/images/footer-img.png" alt=""></a>
-                            </div>
-                            <div>
-                                <a href="index-list.html#" class="text-uppercase">Home is peaceful Place</a>
-                                <span class="p-date">February 15, 2016</span>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
-			</div>
-		</div>-->
+			</div>-->
 		<div class="footer-copy">
 			<div class="container">
 				<div class="row">

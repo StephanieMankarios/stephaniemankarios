@@ -168,4 +168,4 @@ gulp.task('watch', function () {
  * DEFAULT TASK - a task that calls other tasks
  *-----------------------------------------------------------------*/
 //gulp.task('default', ['scripts', 'styles', 'nunjucks', 'html', 'imagemin', 'browser-sync', 'watch']);
-gulp.task('default', ['scripts', 'styles', 'html', 'browser-sync', 'watch']);
+gulp.task('default', ['scripts', 'styles', 'nunjucks', 'html', 'browser-sync', 'watch']);
