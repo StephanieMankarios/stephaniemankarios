@@ -51,14 +51,14 @@ gulp.task('scripts', function () {
  *-----------------------------------------------------------------*/
 gulp.task('nunjucks', function () {
 	// Gets .html and .nunjucks files in pages
-	return gulp.src('app/pages/*.+(html|nunjucks)')
+	return gulp.src('app/assets/pages/*.+(html|nunjucks)')
 		// Adding data to Nunjucks
-		.pipe(data(function () {
-			return require('./app/data.json')
-		}))
+		// .pipe(data(function () {
+		// 	return require('./app/data.json')
+		// }))
 		// Renders template with nunjucks
 		.pipe(nunjucksRender({
-			path: ['app/templates']
+			path: ['app/assets/templates/']
 		}))
 		// output files in app folder
 		.pipe(gulp.dest('app'))
