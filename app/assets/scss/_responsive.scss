@@ -2,6 +2,7 @@
 
 @media (min-width: 1400px) {
 	.jumbotron {
+		height: 130vh;
 		.text-center p {
 			font-family: LibreBaskervilleRegular;
 			font-size: 5rem;
@@ -49,7 +50,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.jumbotron {
-		height: 58vh;
+		height: 93vh;
 		.text-center p {
 			font-size: 4rem;
 			line-height: 5rem;
@@ -166,7 +167,7 @@
 
 @media (max-width: 767px) {
 	.jumbotron {
-		height: 40vh;
+		height: 71vh;
 		p {
 			font-size: 1.5rem;
 			line-height: 2.5rem;
