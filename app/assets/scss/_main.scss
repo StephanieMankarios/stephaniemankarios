@@ -40,10 +40,14 @@ Table of contents
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic");
 
 @font-face {
-    font-family: LibreBaskervilleRegular;
+    font-family: libre-baskerville-regular;
     src: url(../fonts/LibreBaskerville-Regular.otf); 
 }
 
+@font-face {
+    font-family: sunday-regular;
+    src: url(../fonts/Sunday-Regular.otf); 
+}
 /*--------------------------------------
     elements
 --------------------------------------*/
@@ -1074,7 +1078,9 @@ athuor
 /*===========
 blog css
 =============*/
-
+.main-content .entry-content {
+    // font-family: sunday-regular;
+}
 .decoration a {
     color: #60c7eb;
     border: 1px solid #60c7eb;

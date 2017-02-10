@@ -46,15 +46,15 @@
 				<div class="col-md-8">
 					<article class="post">
 						<div class="post-thumb">
-							<a href="blog.html"><img src="assets/images/blog/coconutmilk.jpg" alt=""></a>
-							<a href="blog.html" class="post-thumb-overlay text-center">
+							<a href="coconut-milk.html"><img src="assets/images/blog/coconut-milk.jpg" alt=""></a>
+							<a href="coconut-milk.html" class="post-thumb-overlay text-center">
 								<div class="text-uppercase text-center">View Post</div>
 							</a>
 						</div>
 						<div class="post-content">
 							<header class="entry-header text-center text-uppercase">
 								<h6><a href="index-list.html#"> Health &amp; Wellness</a></h6>
-								<h1 class="entry-title"><a href="coconutmilk.html">How to take a Coconut milk bath &amp; Why it's good for you 
+								<h1 class="entry-title"><a href="coconut-milk.html">How to take a Coconut milk bath &amp; Why it's good for you 
 							</a></h1>
 							</header>
 							<div class="entry-content">
