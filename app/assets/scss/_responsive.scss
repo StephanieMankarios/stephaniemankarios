@@ -4,13 +4,8 @@
 	.jumbotron {
 		height: 100vh;
 		.text-center p {
-			font-family: LibreBaskervilleRegular;
 			font-size: 5rem;
 			line-height: 6.5rem;
-		}
-		a {
-			background-color: $primary-color;
-			border-color: $primary-color;
 		}
 	}
 	.show-search {
@@ -35,13 +30,8 @@
 	}
 		.jumbotron {
 		.text-center p {
-			font-family: LibreBaskervilleRegular;
 			font-size: 5rem;
 			line-height: 6.5rem;
-		}
-		a {
-			background-color: $primary-color;
-			border-color: $primary-color;
 		}
 	}
 }
@@ -54,10 +44,6 @@
 		.text-center p {
 			font-size: 4rem;
 			line-height: 5rem;
-		}
-		a {
-			background-color: $primary-color;
-			border-color: $primary-color;
 		}
 	}
 	.nav>li>a {
@@ -88,10 +74,6 @@
 		.text-center p {
 			font-size: 3.5rem;
 			line-height: 4.5rem;
-		}
-		a {
-			background-color: $primary-color;
-			border-color: $primary-color;
 		}
 	}
 	.navbar-brand img {
@@ -173,10 +155,6 @@
 			line-height: 2.5rem;
 			text-align: left;
 		}
-		a {
-			background-color: $primary-color;
-			border-color: $primary-color;
-		}
 	}
 	.nav>li>a {
 		padding: 10px 30px;
@@ -250,10 +228,6 @@
 @media (max-width: 479px) {
 	.jumbotron {
 		height: 37vh;
-		a {
-			background-color: $primary-color;
-			border-color: $primary-color;
-		}
 	}
 	.navbar-brand {
 		height: 75px;

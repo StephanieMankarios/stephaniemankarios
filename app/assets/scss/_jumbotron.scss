@@ -8,6 +8,10 @@
 	margin-top: 0px;
 	margin-bottom: 8px;
   font-family: libre-baskerville-regular;
+  a {
+			background-color: $primary-color;
+			border-color: $primary-color;
+		}
   .btn-primary:hover {
     background-color: $dark;
   }
