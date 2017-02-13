@@ -1,1 +1,7 @@
-$hover-color: #00BFF3;
+$primary-color: #00BFF3;
+
+
+@mixin a($primary-color) {
+			background-color: $primary-color;
+			border-color: $primary-color;
+		}

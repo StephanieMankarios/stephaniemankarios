@@ -2,14 +2,15 @@
 
 @media (min-width: 1400px) {
 	.jumbotron {
+		height: 100vh;
 		.text-center p {
 			font-family: LibreBaskervilleRegular;
 			font-size: 5rem;
 			line-height: 6.5rem;
 		}
 		a {
-			background-color: $hover-color;
-			border-color: $hover-color;
+			background-color: $primary-color;
+			border-color: $primary-color;
 		}
 	}
 	.show-search {
@@ -39,8 +40,8 @@
 			line-height: 6.5rem;
 		}
 		a {
-			background-color: $hover-color;
-			border-color: $hover-color;
+			background-color: $primary-color;
+			border-color: $primary-color;
 		}
 	}
 }
@@ -49,14 +50,14 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.jumbotron {
-		height: 58vh;
+		height: 93vh;
 		.text-center p {
 			font-size: 4rem;
 			line-height: 5rem;
 		}
 		a {
-			background-color: $hover-color;
-			border-color: $hover-color;
+			background-color: $primary-color;
+			border-color: $primary-color;
 		}
 	}
 	.nav>li>a {
@@ -89,8 +90,8 @@
 			line-height: 4.5rem;
 		}
 		a {
-			background-color: $hover-color;
-			border-color: $hover-color;
+			background-color: $primary-color;
+			border-color: $primary-color;
 		}
 	}
 	.navbar-brand img {
@@ -166,15 +167,15 @@
 
 @media (max-width: 767px) {
 	.jumbotron {
-		height: 40vh;
+		height: 71vh;
 		p {
 			font-size: 1.5rem;
 			line-height: 2.5rem;
 			text-align: left;
 		}
 		a {
-			background-color: $hover-color;
-			border-color: $hover-color;
+			background-color: $primary-color;
+			border-color: $primary-color;
 		}
 	}
 	.nav>li>a {
@@ -250,8 +251,8 @@
 	.jumbotron {
 		height: 37vh;
 		a {
-			background-color: $hover-color;
-			border-color: $hover-color;
+			background-color: $primary-color;
+			border-color: $primary-color;
 		}
 	}
 	.navbar-brand {
