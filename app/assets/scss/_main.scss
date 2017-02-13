@@ -122,6 +122,9 @@ header
     float: left;
 }
 
+.btn-group-lg > .btn, .btn-lg {
+    padding: 15px 60px;
+}
 // .nav>li>a:first-child {
 //     padding-left: 0;
 // }
