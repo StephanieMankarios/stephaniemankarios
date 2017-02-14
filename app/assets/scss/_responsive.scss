@@ -1,7 +1,7 @@
 /* lg */
 
 @media (min-width: 1400px) {
-	.jumbotron {
+	.jumbotron.home-page {
 		height: 100vh;
 		.text-center p {
 			font-size: 5rem;
@@ -28,7 +28,7 @@
 	.navbar-brand img {
 		height: 60px;
 	}
-		.jumbotron {
+		.jumbotron.home-page {
 		.text-center p {
 			font-size: 5rem;
 			line-height: 6.5rem;
@@ -39,7 +39,7 @@
 /* md */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-	.jumbotron {
+	.jumbotron.home-page {
 		height: 93vh;
 		.text-center p {
 			font-size: 4rem;
@@ -69,7 +69,7 @@
 	.nav>li>a:first-child {
 		padding-left: 0;
 	}
-	.jumbotron {
+	.jumbotron.home-page {
 		height: 50vh;
 		.text-center p {
 			font-size: 3.5rem;
@@ -148,7 +148,7 @@
 /* xs */
 
 @media (max-width: 767px) {
-	.jumbotron {
+	.jumbotron.home-page {
 		height: 71vh;
 		p {
 			font-size: 1.5rem;
@@ -226,7 +226,7 @@
 /* XS Portrait */
 
 @media (max-width: 479px) {
-	.jumbotron {
+	.jumbotron.home-page {
 		height: 37vh;
 	}
 	.navbar-brand {

@@ -1,10 +1,3 @@
-/*------------------------------------------------------------------
-Common Stylesheet
-
-Designer & Developer: Will Diep
-
--------------------------------------------------------------------*/
-
 
 /*------------------------------------------------------------------
 Table of contents
@@ -23,7 +16,7 @@ Table of contents
 12. recent post
 13. Categories
 14. Instagram
-15. footer instragram
+15. footer instagram
 16. athuor
 17. blog css
 18. single blog
@@ -87,6 +80,7 @@ ul {
     padding: 0;
     margin: 0;
 }
+
 
 .media .media-left {
     float: left;
@@ -1084,6 +1078,20 @@ blog css
 .main-content .entry-content {
     // font-family: sunday-regular;
 }
+
+.post-content, .post-area {
+    strong {
+			font-family: "Merriweather";
+    }
+    ul {
+        padding: 0 0 0 30px;
+        margin: 0;
+        li {
+            font-family: "Merriweather";
+        }
+    }
+}
+
 .decoration a {
     color: #60c7eb;
     border: 1px solid #60c7eb;

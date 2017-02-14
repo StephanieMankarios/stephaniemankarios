@@ -1,0 +1,98 @@
+<!-- about.nunjucks -->
+{% extends "layout.nunjucks" %} 
+
+{% block content %}
+<div class="jumbotron about-page">
+  <div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="text-center">
+					<p style="color: white; font-size: 5.5rem;">Stephanie Mankarios</p>
+					<p style="color: white;">Self Development Coach</p>
+					<p style="color: white;">Mindfulness Yoga &amp; Meditation Teacher</p>
+					
+	<!--				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum quis tortor</p> -->
+					<a href="#" class="btn btn-lg btn-primary">TAP INTO YOUR TRUE SELF</a> </div>
+				<!-- ./text-left -->
+			</div>
+		</div>
+		<!-- ./row -->
+	</div>
+	<!-- ./container -->
+	</div>
+	<!-- ./jumbotron -->
+
+
+<!--main content start-->
+<div class="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <article>
+                    <div class="post-thumb mb">
+                        <a href="blog.html"><img src="assets/images/photos/about-middle.jpg" alt=""></a>
+
+
+                    </div>
+                    <div class="post-area">
+                        <div class="about-p">
+                    <p>Hi, my name is Steph, and I'm super happy that you're here!</p>
+<br>
+<p>If you're feeling stuck, you've come to the right place.
+<br><br>
+Since you're here right now, something tells me that you're ready for change.Ready to fill your life with happiness, ready to find your true purpose, ready for a little more inner peace.
+<br><br>
+Regardless of where you are along your path, now is the time to go deeper, feel more connected, and finally live in alignment with your dreams and desires.</p>
+
+                        </div>
+
+                        <div class="single-about text-center">
+                            <div class="about-us-img">
+                                <img src="assets/images/about-1.jpg" alt="" class="img-circle">
+                            </div>
+                            <div class="about-us-text">
+                                <h4 class="text-uppercase">Rubel miah</h4>
+                                <h5>WordPress Engineer</h5>
+
+                                <p class="text-left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                                    nonumy eirmod
+                                    tempindunt ut labore et dolmagna aliquyam erat, sed diam voluptua. At vero eos et
+                                    accusam et justo lores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                    sanctus est Lorem ipsum dolor sit aLorem ipsum dolor sitconsetetur sadipscing elitr,
+                                    sed diam nonumy eirmod diam voluptua. </p>
+
+                                <div class="social-share">
+                                    <ul>
+                                        <li class="text-center"><a class="s-facebook" href=""><i
+                                                class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li class="text-center"><a class="s-twitter" href=""><i
+                                                class="fa fa-twitter"></i></a></li>
+                                        <li class="text-center"><a class="s-google-plus" href=""><i
+                                                class="fa fa-google-plus"></i></a></li>
+                                        <li class="text-center"><a class="s-linkedin" href=""><i
+                                                class="fa fa-linkedin"></i></a>
+                                        </li>
+                                        <li class="text-center"><a class="s-instagram" href=""><i
+                                                class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="single-about text-center">
+                        </div>
+                       
+                    </div>
+                </article>
+
+            </div>
+{% include "partials/sidebar.nunjucks" %}
+        </div>
+    </div>
+</div>
+<!-- end main content-->
+
+
+
+{% endblock %}
