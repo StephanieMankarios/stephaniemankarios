@@ -76,14 +76,19 @@
 	.nav>li>a:first-child {
 		padding-left: 0;
 	}
+
 	.jumbotron.home-page {
 		height: 50vh;
 		.text-center p {
-			font-size: 3.5rem;
-			line-height: 4.5rem;
+			font-size: 2rem;
 		}
 	}
-		.jumbotron.about-page {
+	.btn-group-lg > .btn, .btn-lg {
+		font-size: 1.2rem;
+		padding: 15px 30px;
+	}
+
+	.jumbotron.about-page {
 		height: 70vh;
 	}
 	.navbar-brand img {
@@ -160,12 +165,19 @@
 @media (max-width: 767px) {
 	.jumbotron.home-page {
 		height: 71vh;
+		.text-center {
+			padding-right: 50%;
+		}
 		p {
-			font-size: 1.5rem;
-			line-height: 2.5rem;
-			text-align: left;
+			font-size: 2rem;
 		}
 	}
+	.btn-group-lg > .btn, .btn-lg {
+		font-size: 1.2rem;
+		padding: 15px 30px;
+	}
+
+
 	.jumbotron.about-page {
 		height: 43vh;
 	}
@@ -239,14 +251,30 @@
 /* XS Portrait */
 
 @media (max-width: 479px) {
-	.jumbotron.home-page {
+.jumbotron.home-page {
 		height: 37vh;
+		p {
+			font-size: 1.5rem;
+		}
 	}
 	
+	.btn-group-lg>.btn,
+	.btn-lg {
+		font-size: 0.7rem;
+		padding: 10px;
+	}
+}
+
+.jumbotron p {
+	margin-bottom: 0;
+}
+
+.top-comment h3 {
+	font-size: 2rem;
+}
 	.navbar-brand {
 		height: 75px;
 		img {
 			height: 50px;
 		}
 	}
-}
