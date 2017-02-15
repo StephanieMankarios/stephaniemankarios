@@ -16,6 +16,8 @@
 <style>
 .thumbnail {
 	padding: 30px;
+  box-shadow: 5px 5px 5px grey;
+  font-family: "Open Sans";
 }
 .thumbnail h4 {
   border: 1px solid #333;
@@ -25,12 +27,19 @@
   width: 100%;
 }
 
+.thumbnail h4:hover {
+  color: #00BFF3;
+}
+
 .thumbnail h3 {
   text-align: center;
 }
 
 .thumbnail h2 {
   text-align: center;
+}
+.thumbnail h2:hover {
+  color: #00BFF3;
 }
 
 .thumbnail li {
@@ -112,7 +121,7 @@
   <div class="thumbnail">
     <!--<img src="http://placehold.it/500x250/EEE">-->
     <div class="caption">
-      <h3 class="text-capitalize"><strong>best value</strong></h3>
+      <h3 class="text-capitalize" style="color: #00BFF3"><strong>best value</strong></h3>
       <h4>12-Month Package</h4>
       <p>Includes:</p>
       <ul>
