@@ -3,13 +3,10 @@
 <div class="jumbotron about-page">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="">
                 <div class="text-center">
-                    <p style="color: white; font-size: 5.5rem;">Stephanie Mankarios</p>
-                    <p style="color: white;">Self Development Coach</p>
-                    <p style="color: white;">Mindfulness Yoga &amp; Meditation Teacher</p>
-                    <!--				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum quis tortor</p> -->
-                    <a href="#" class="btn btn-lg btn-primary">TAP INTO YOUR TRUE SELF</a> </div>
+                    <p style="color: white;">ABOUT</p>
+                </div>
                 <!-- ./text-left -->
             </div>
         </div>
@@ -70,7 +67,8 @@
                                     of thinking.</p>
                                 <p>This experience ignited in me the desire to go deep within, and ever since, I have been journeying
                                     into the path of self-discovery, and along the way, helping people from all walks of
-                                    life.</p>
+                                    life.
+                                </p>
                                 <p>Moving through this path, I went to India, to the capital of spirituality; Rishikesh. Along
                                     with another Yoga Teacher Training, I began to study and understand principles and teachings
                                     that have been around for thousands of years. This allowed me to understand how inner
