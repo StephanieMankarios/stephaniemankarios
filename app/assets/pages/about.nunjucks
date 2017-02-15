@@ -1,5 +1,7 @@
 <!-- about.nunjucks -->
-{% extends "layout.nunjucks" %} {% block content %}
+{% extends "layout.nunjucks" %} 
+
+{% block content %}
 <div class="jumbotron about-page">
     <div class="container">
         <div class="row">
@@ -7,7 +9,7 @@
                 <div class="text-center">
                     <p style="color: white;">ABOUT</p>
                 </div>
-                <!-- ./text-left -->
+                <!-- ./text-center -->
             </div>
         </div>
         <!-- ./row -->
