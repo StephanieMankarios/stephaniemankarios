@@ -8,6 +8,9 @@
 			line-height: 6.5rem;
 		}
 	}
+	.jumbotron.about-page {
+		height: 100vh;
+	}
 	.show-search {
 		right: 20%;
 	}
@@ -24,6 +27,7 @@
 	}
 }
 
+/* lg/md */
 @media (min-width: 1200px) and (max-width: 1399px) {
 	.navbar-brand img {
 		height: 60px;
@@ -45,6 +49,9 @@
 			font-size: 4rem;
 			line-height: 5rem;
 		}
+	}
+	.jumbotron.about-page {
+		height: 90vh;
 	}
 	.nav>li>a {
 		// padding: 15px 10px;
@@ -75,6 +82,9 @@
 			font-size: 3.5rem;
 			line-height: 4.5rem;
 		}
+	}
+		.jumbotron.about-page {
+		height: 70vh;
 	}
 	.navbar-brand img {
 		height: 90px;
@@ -156,6 +166,9 @@
 			text-align: left;
 		}
 	}
+	.jumbotron.about-page {
+		height: 43vh;
+	}
 	.nav>li>a {
 		padding: 10px 30px;
 	}
@@ -229,6 +242,7 @@
 	.jumbotron.home-page {
 		height: 37vh;
 	}
+	
 	.navbar-brand {
 		height: 75px;
 		img {
