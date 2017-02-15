@@ -251,30 +251,27 @@
 /* XS Portrait */
 
 @media (max-width: 479px) {
-.jumbotron.home-page {
+	.jumbotron.home-page {
 		height: 37vh;
 		p {
 			font-size: 1.5rem;
 		}
 	}
-	
 	.btn-group-lg>.btn,
 	.btn-lg {
 		font-size: 0.7rem;
 		padding: 10px;
 	}
-}
-
-.jumbotron p {
-	margin-bottom: 0;
-}
-
-.top-comment h3 {
-	font-size: 2rem;
-}
+	.jumbotron p {
+		margin-bottom: 0;
+	}
+	.top-comment h3 {
+		font-size: 2rem;
+	}
 	.navbar-brand {
 		height: 75px;
 		img {
 			height: 50px;
 		}
 	}
+}
