@@ -73,6 +73,11 @@ h6 {
 a {
     text-decoration: none;
     display: inline-block;
+    color: $primary-color;
+}
+
+a:hover {
+	color: $dark;
 }
 
 ul {
