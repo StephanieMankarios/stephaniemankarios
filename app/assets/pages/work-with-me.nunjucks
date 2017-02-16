@@ -25,6 +25,7 @@
   height: 40px;
   line-height: 40px;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .thumbnail h4:hover {
@@ -60,7 +61,7 @@
       </ul>
       <!--<h3>$497</h3>-->
       <br>
-      <p><i>* valid proof of being a studet required</i></p>
+      <p><i>* valid proof of being a student required</i></p>
     </div>
   </div>
 </div>
@@ -92,7 +93,7 @@
       <ul>
         <li>6 bi-weekly sessions</li>
         <li>45 - 60 minutes each</li>
-        <li>Free email support for the week in between sessions</li>
+        <li>Free email support for the weeks in between sessions</li>
       </ul>
 
       <!--<h3>$997</h3>-->
@@ -109,7 +110,7 @@
       <ul>
         <li>13 bi-weekly sessions</li>
         <li>45 - 60 minutes each</li>
-        <li>Free email support for the week in between sessions</li>
+        <li>Free email support for the weeks in between sessions</li>
       </ul>
 
       <!--<h3>$1557</h3>-->
