@@ -194,14 +194,18 @@
 								</div>
 							</div>
 						</div>
+						<div class="col-md-12">
+							<div class="btn-continue-reading text-center text-uppercase">
+								<a href="coconut-milk.html" class="more-link">view more</a>
+							</div>
 					</article>
-					<ul class="pagination">
+					{#<ul class="pagination">
 						<li class="active"><a href="index-list.html#">1</a></li>
 						<li><a href="index-list.html#">2</a></li>
 						<li><a href="index-list.html#">3</a></li>
 						<li><a href="index-list.html#">4</a></li>
 						<li><a href="index-list.html#"><i class="fa fa-angle-double-right"></i></a></li>
-					</ul>
+					</ul>#}
 				</div>
 
 {% include "partials/sidebar.nunjucks" %}
