@@ -1,5 +1,7 @@
-<!-- about.nunjucks -->
-{% extends "layout.nunjucks" %} {% block content %}
+<!-- price-table-test.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+ {% block content %}
 
 <div class="jumbotron work-with-me-page">
   <div class="container">
@@ -43,12 +45,8 @@
 					<li>Includes:</li>
 					<li>4 sessions</li>
 					<li>45 - 60 minutes each</li>
-					<li>
-						<ul>* Must show proof of current student attendance</ul>
-					</li>
-					<li>
-						<h3>$497</h3>
-					</li>
+					<li>* Must show proof of current student attendance</li>
+					<li><h3>$497</h3></li>
 					<li class="link">Join Now</li>
 				</ul>
 				</div>
@@ -64,6 +62,7 @@
 					<li>Includes:</li>
 					<li>4 sessions</li>
 					<li>45 - 60 minutes each</li>
+					<li></li>
 					<li></li>
 					<li></li>
 					<li></li>
@@ -85,6 +84,8 @@
 					<li>6 bi-weekly sessions</li>
 					<li>45 - 60 minutes each</li>
 					<li>Free email support for the weeks in between sessions</li>
+						<li></li>
+					<li></li>
 					<li></li>
 					<li></li>
 					<li>
@@ -102,9 +103,11 @@
 						<img src="http://bread.pp.ua/n/settings_b.svg" alt="">
 						<big>6-Month Package</big>
 					</li>
-					<li>13 bi-Weekly sessions</li>
+					<li>13 bi-weekly sessions</li>
 					<li>45 - 60 minutes each</li>
 					<li>Free email support for the weeks in between sessions</li>
+					<li></li>
+					<li></li>
 					<li></li>
 					<li></li>
 					<li>
@@ -115,12 +118,13 @@
 				</div>
 			</div>
 
+
+
+
+
+
+
 		</div><!-- /block -->
-
-
-
-
-
 	</div><!-- /col-md-8 -->
 {% include "partials/sidebar.nunjucks" %}
 	</div><!-- /row -->
