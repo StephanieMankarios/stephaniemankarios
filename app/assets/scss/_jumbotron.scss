@@ -32,13 +32,6 @@
 	padding-top: 20vh;
 	padding-right: 50%;
 	}
-  a {
-			background-color: $primary-color;
-			border-color: $primary-color;
-		}
-  .btn-primary:hover {
-    background-color: $dark;
-  }
 }
 
 .jumbotron.contact-page {
@@ -56,15 +49,24 @@
 	padding-top: 20vh;
 	padding-right: 50%;
 	}
-  a {
-			background-color: $primary-color;
-			border-color: $primary-color;
-		}
-  .btn-primary:hover {
-    background-color: $dark;
-  }
 }
 
+
+.jumbotron.work-with-me-page {
+		background-image: url("../images/photos/work-with-me.jpg");
+//	background-attachment: fixed;
+		background-size: 100% auto;
+	background-repeat: no-repeat;
+	height: 100vh;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	p {
+	font-size: 7rem;
+  font-family: libre-baskerville-regular;
+	padding-top: 50vh;
+	}
+
+}
 
 
 

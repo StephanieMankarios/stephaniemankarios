@@ -91,8 +91,8 @@
 						<div class="row">
 							<div class="col-md-6">
 								<div class="post-thumb">
-									<a href="blog.html"><img src="assets/images/blog-grid.jpg" alt="" class="pull-left"></a>
-									<a href="blog.html" class="post-thumb-overlay text-center">
+									<a href="price-table-test.html"><img src="assets/images/blog-grid.jpg" alt="" class="pull-left"></a>
+									<a href="price-table-test.html" class="post-thumb-overlay text-center">
 										<div class="text-uppercase text-center">View Post</div>
 									</a>
 								</div>

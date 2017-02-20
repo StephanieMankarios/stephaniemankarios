@@ -1,0 +1,132 @@
+<!-- about.nunjucks -->
+{% extends "layout.nunjucks" %} {% block content %}
+
+<div class="jumbotron work-with-me-page">
+  <div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="text-center">
+					<p style="color: white;">Work With Me</p>
+					
+	<!--				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum quis tortor</p> -->
+          </div>
+				<!-- ./text-left -->
+			</div>
+			<!-- ./col-md-12 -->
+			<div class="col-sm-6">
+			</div>
+		</div>
+		<!-- ./row -->
+	</div>
+	<!-- ./container -->
+	</div>
+	<!-- ./jumbotron -->
+
+
+<div class="main-content">
+
+<section class="container">
+	<div class="row">
+	<div class="col-md-8">
+
+
+
+		<div class="block">
+
+			<div class="col-md-6">
+				<div class="pricing-box">
+				<ul class="pricing p-purple">
+					<li>
+						<img src="http://bread.pp.ua/n/settings_g.svg" alt="">
+						<big>1-Month Student Package</big>
+					</li>
+					<li>Includes:</li>
+					<li>4 sessions</li>
+					<li>45 - 60 minutes each</li>
+					<li>
+						<ul>* Must show proof of current student attendance</ul>
+					</li>
+					<li>
+						<h3>$497</h3>
+					</li>
+					<li class="link">Join Now</li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="pricing-box">
+				<ul class="pricing p-dark-slate-green">
+					<li>
+						<img src="http://bread.pp.ua/n/settings_g.svg" alt="">
+						<big>1-Month Package</big>
+					</li>
+					<li>Includes:</li>
+					<li>4 sessions</li>
+					<li>45 - 60 minutes each</li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li>
+						<h3>$697</h3>
+					</li>
+					<li class="link">Join Now</li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="pricing-box">
+				<ul class="pricing p-indian-red">
+					<li>
+						<img src="http://bread.pp.ua/n/settings_r.svg" alt="">
+						<big>3-Month Package</big>
+					</li>
+					<li>6 bi-weekly sessions</li>
+					<li>45 - 60 minutes each</li>
+					<li>Free email support for the weeks in between sessions</li>
+					<li></li>
+					<li></li>
+					<li>
+						<h3>$997</h3>
+					</li>
+					<li class="link">Join Now</li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="pricing-box">
+				<ul class="pricing p-fiord">
+					<li>
+						<img src="http://bread.pp.ua/n/settings_b.svg" alt="">
+						<big>6-Month Package</big>
+					</li>
+					<li>13 bi-Weekly sessions</li>
+					<li>45 - 60 minutes each</li>
+					<li>Free email support for the weeks in between sessions</li>
+					<li></li>
+					<li></li>
+					<li>
+						<h3>$1557</h3>
+					</li>
+					<li class="link">Join Now</li>
+				</ul>
+				</div>
+			</div>
+
+		</div><!-- /block -->
+
+
+
+
+
+	</div><!-- /col-md-8 -->
+{% include "partials/sidebar.nunjucks" %}
+	</div><!-- /row -->
+</section>
+	<!-- /section -->
+
+	</div><!-- /main -->
+
+{% endblock %}
