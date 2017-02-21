@@ -39,7 +39,7 @@
 				<div class="pricing-box">
 				<ul class="pricing p-purple">
 					<li>
-						<img src="http://bread.pp.ua/n/settings_g.svg" alt="">
+						<div class="img" href="#"></div>
 						<big>1-Month Student Package</big>
 					</li>
 					<li>Includes:</li>
@@ -56,7 +56,7 @@
 				<div class="pricing-box">
 				<ul class="pricing p-dark-slate-green">
 					<li>
-						<img src="http://bread.pp.ua/n/settings_g.svg" alt="">
+						<div class="img" href="#"></div>
 						<big>1-Month Package</big>
 					</li>
 					<li>Includes:</li>
@@ -78,7 +78,7 @@
 				<div class="pricing-box">
 				<ul class="pricing p-indian-red">
 					<li>
-						<img src="http://bread.pp.ua/n/settings_r.svg" alt="">
+						<div class="img" href="#"></div>
 						<big>3-Month Package</big>
 					</li>
 					<li>6 bi-weekly sessions</li>

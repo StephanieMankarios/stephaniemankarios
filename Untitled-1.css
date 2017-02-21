@@ -1,0 +1,28 @@
+.p-dark-slate-green big,
+    .p-dark-slate-green h3 {
+      color: $dark-slate-green;
+    }
+    
+    .p-dark-slate-green:hover {
+      background-color: $dark-slate-green;
+    }
+    
+    .p-dark-slate-green:hover .link {
+      background-color: white;
+      color: $dark-slate-green;
+    }
+    
+    .p-dark-slate-green:hover * {
+      color: white;
+    }
+    
+    .p-dark-slate-green li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-dark-slate-green .link {
+      background-color: $dark-slate-green;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }

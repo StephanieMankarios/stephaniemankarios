@@ -1,0 +1,275 @@
+    @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+    .body-price {
+      background: white;
+      color: #111;
+      min-width: 320px;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -webkit-backface-visibility: hidden;
+      position: relative;
+      padding: 50px 20px;
+    }
+    
+    .pricing-box {
+      background-color: white;
+      border-radius: 25px;
+    }
+    .pricing {
+      text-align: center;
+      border: 1px solid #f0f0f0;
+      border-radius: 25px;
+      color: #777;
+      font-size: 14px;
+      padding-left: 0;
+      margin-bottom: 30px;
+      font-family: 'Lato';
+    }
+    
+    .pricing img {
+      display: block;
+      margin: auto;
+      width: 32px;
+    }
+    
+    .pricing li:first-child,
+    .pricing li:last-child {
+      padding: 20px 13px;
+    }
+    
+    .pricing li {
+      list-style: none;
+      padding: 13px;
+    }
+    /*.pricing li + li {
+	border-top: 1px solid #f0f0f0;
+  }*/
+    
+    .pricing big {
+      font-size: 32px;
+    }
+    
+    .pricing h3 {
+      margin-bottom: 0;
+      font-size: 36px;
+    }
+    
+    .pricing span {
+      font-size: 12px;
+      color: #999;
+      font-weight: normal;
+    }
+    
+    .pricing li:nth-last-child(2) {
+      padding: 30px 13px;
+    }
+    
+    .pricing button {
+      width: auto;
+      margin: auto;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 50px;
+      color: #fff;
+      padding: 9px 24px;
+      background: #aaa;
+      opacity: 1;
+      transition: opacity .2s ease;
+      border: none;
+      outline: none;
+    }
+    
+    // .pricing button:hover {
+    //   opacity: .9;
+    // }
+    
+    // .pricing button:active {
+    //   box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.1);
+    // }
+
+
+
+
+
+
+    /*---- PRICING COLORS ---*/
+
+    /* start of purple */
+    
+    .p-purple big,
+    .p-purple h3 {
+      color: $purple;
+    }
+    
+    .p-purple:hover {
+      background-color: $purple;
+      
+    }
+    
+    .p-purple:hover .link {
+      background-color: white;
+      color: $purple;
+    }
+    
+    .p-purple:hover * {
+      color: white;
+    }
+    
+    .p-purple li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-purple .link {
+      background-color: $purple;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-purple .img {
+      display: block;
+      margin: auto;
+      width: 70px;
+      height: 63px;
+      background-image: url("../images/work-with-me/open-arms.png");
+}
+
+.p-purple:hover .img {
+  display: block;
+  margin: auto;
+  width: 70px;
+  height: 63px;
+  background-image: url("../images/work-with-me/open-arms-hover.png");
+}
+    /* end of purple */
+
+    /* start of dark slate green */
+    
+   .p-dark-slate-green big,
+    .p-dark-slate-green h3 {
+      color: $dark-slate-green;
+    }
+    
+    .p-dark-slate-green:hover {
+      background-color: $dark-slate-green;
+    }
+    
+    .p-dark-slate-green:hover .link {
+      background-color: white;
+      color: $dark-slate-green;
+    }
+    
+    .p-dark-slate-green:hover * {
+      color: white;
+    }
+    
+    .p-dark-slate-green li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-dark-slate-green .link {
+      background-color: $dark-slate-green;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-dark-slate-green .img {
+      display: block;
+      margin: auto;
+      width: 104px;
+      height: 60px;
+      background-image: url("../images/work-with-me/sun.png");
+}
+
+.p-dark-slate-green:hover .img {
+  display: block;
+  margin: auto;
+  width: 104px;
+  height: 60px;
+  background-image: url("../images/work-with-me/sun-hover.png");
+}
+
+    /* end of dark slate green */
+
+
+    /* start of gainsboro */
+    
+  .p-indian-red big,
+    .p-indian-red h3 {
+      color: $indian-red;
+    }
+    
+    .p-indian-red:hover {
+      background-color: $indian-red;
+    }
+    
+    .p-indian-red:hover .link {
+      background-color: white;
+      color: $indian-red;
+    }
+    
+    .p-indian-red:hover * {
+      color: white;
+    }
+    
+    .p-indian-red li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-indian-red .link {
+      background-color: $indian-red;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-indian-red .img {
+      display: block;
+      margin: auto;
+      width: 63px;
+      height: 70px;
+      background-image: url("../images/work-with-me/flower.png");
+}
+
+.p-indian-red:hover .img {
+  display: block;
+  margin: auto;
+  width: 63px;
+  height: 70px;
+  background-image: url("../images/work-with-me/flower-hover.png");
+}
+    /* end of gainsboro */
+    
+    /* start of dark olive green */
+.p-fiord big,
+    .p-fiord h3 {
+      color: $fiord;
+    }
+    
+    .p-fiord:hover {
+      background-color: $fiord;
+    }
+    
+    .p-fiord:hover .link {
+      background-color: white;
+      color: $fiord;
+    }
+    
+    .p-fiord:hover * {
+      color: white;
+    }
+    
+    .p-fiord li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-fiord .link {
+      background-color: $fiord;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+    /* end of dark olive green */
