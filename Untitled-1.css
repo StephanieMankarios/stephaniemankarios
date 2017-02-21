@@ -1,28 +1,48 @@
-.p-dark-slate-green big,
-    .p-dark-slate-green h3 {
+/* start of 12-class-card/dark slate green */
+    
+   .p-12-class-card big,
+    .p-12-class-card h3 {
       color: $dark-slate-green;
     }
     
-    .p-dark-slate-green:hover {
+    .p-12-class-card:hover {
       background-color: $dark-slate-green;
     }
     
-    .p-dark-slate-green:hover .link {
+    .p-12-class-card:hover .link {
       background-color: white;
       color: $dark-slate-green;
     }
     
-    .p-dark-slate-green:hover * {
+    .p-12-class-card:hover * {
       color: white;
     }
     
-    .p-dark-slate-green li:last-child {
+    .p-12-class-card li:last-child {
       border-top: 1px solid #f0f0f0;
     }
     
-    .p-dark-slate-green .link {
+    .p-12-class-card .link {
       background-color: $dark-slate-green;
       color: white;
       border-bottom-left-radius: 25px;
       border-bottom-right-radius: 25px;
     }
+
+.p-12-class-card .img {
+      display: block;
+      margin: auto;
+      width: 104px;
+      height: 60px;
+      background-image: url("../images/work-with-me/sun.png");
+}
+
+.p-12-class-card:hover .img {
+  display: block;
+  margin: auto;
+  width: 104px;
+  height: 60px;
+  background-image: url("../images/work-with-me/sun-hover.png");
+}
+
+    /* end of 12-class-card/dark slate green */

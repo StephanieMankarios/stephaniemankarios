@@ -37,7 +37,7 @@
 
 			<div class="col-md-6">
 				<div class="pricing-box">
-				<ul class="pricing p-purple">
+				<ul class="pricing p-purple p-1-month-student-package">
 					<li>
 						<div class="img" href="#"></div>
 						<big>1-Month Student Package</big>
@@ -54,7 +54,7 @@
 
 			<div class="col-md-6">
 				<div class="pricing-box">
-				<ul class="pricing p-dark-slate-green">
+				<ul class="pricing p-dark-slate-green p-1-month-package">
 					<li>
 						<div class="img" href="#"></div>
 						<big>1-Month Package</big>
@@ -76,7 +76,7 @@
 
 			<div class="col-md-6">
 				<div class="pricing-box">
-				<ul class="pricing p-indian-red">
+				<ul class="pricing p-indian-red p-3-month-package">
 					<li>
 						<div class="img" href="#"></div>
 						<big>3-Month Package</big>
@@ -98,9 +98,9 @@
 
 			<div class="col-md-6">
 				<div class="pricing-box">
-				<ul class="pricing p-fiord">
+				<ul class="pricing p-fiord p-6-month-package">
 					<li>
-						<img src="http://bread.pp.ua/n/settings_b.svg" alt="">
+						<div class="img" href="#"></div>
 						<big>6-Month Package</big>
 					</li>
 					<li>13 bi-weekly sessions</li>
@@ -124,9 +124,9 @@
 
 <div class="col-md-6">
 				<div class="pricing-box">
-				<ul class="pricing p-purple">
+				<ul class="pricing p-purple p-12-month-package">
 					<li>
-						<img src="http://bread.pp.ua/n/settings_g.svg" alt="">
+						<div class="img" href="#"></div>
 						<big>12-Month Package</big>
 					</li>
 					<li>Includes:</li>
@@ -142,9 +142,9 @@
 
 			<div class="col-md-6">
 				<div class="pricing-box">
-				<ul class="pricing p-dark-slate-green">
+				<ul class="pricing p-dark-slate-green p-additional-email-coaching">
 					<li>
-						<img src="http://bread.pp.ua/n/settings_g.svg" alt="">
+						<div class="img" href="#"></div>
 						<big>Additional Email Coaching</big>
 					</li>
 					<li>Includes:</li>
@@ -174,9 +174,9 @@
 
 <div class="col-md-6">
 				<div class="pricing-box">
-				<ul class="pricing p-indian-red">
+				<ul class="pricing p-indian-red p-1-class-card">
 					<li>
-						<img src="http://bread.pp.ua/n/settings_r.svg" alt="">
+						<div class="img" href="#"></div>
 						<big>1-Class Card</big>
 					</li>
 					<li><h3>$80</h3></li>
@@ -188,9 +188,9 @@
 
 			<div class="col-md-6">
 				<div class="pricing-box">
-				<ul class="pricing p-fiord">
+				<ul class="pricing p-fiord p-5-class-card">
 					<li>
-						<img src="http://bread.pp.ua/n/settings_b.svg" alt="">
+						<div class="img" href="#"></div>
 						<big>5-Class Card</big>
 					</li>
 					<li><h3>$350</h3></li>
@@ -204,9 +204,9 @@
 
 <div class="col-md-6">
 				<div class="pricing-box">
-				<ul class="pricing p-purple">
+				<ul class="pricing p-purple p-10-class-card">
 					<li>
-						<img src="http://bread.pp.ua/n/settings_r.svg" alt="">
+						<div class="img" href="#"></div>
 						<big>10-Class Card</big>
 					</li>
 					<li><h3>$600</h3></li>
@@ -218,9 +218,9 @@
 
 			<div class="col-md-6">
 				<div class="pricing-box">
-				<ul class="pricing p-dark-slate-green">
+				<ul class="pricing p-dark-slate-green p-12-class-card">
 					<li>
-						<img src="http://bread.pp.ua/n/settings_b.svg" alt="">
+						<div class="img" href="#"></div>
 						<big>12-Class Card</big>
 					</li>
 					<li><h3>$1000</h3></li>
@@ -230,7 +230,18 @@
 				</div>
 			</div>
 
+<div class="col-md-12">
+<!--<p>Types of classes offered:</p>-->
+  <p>My flows are a fusion of different styles</p>
+<ul>
+    <p>I also offer:</p>
+    <li>Yin yoga</li>
+    <li>Gentle yoga</li>
+    <li>Guided meditation</li>
+</ul>
 
+
+</div>
 
 		</div><!-- /block -->
 	</div><!-- /col-md-8 -->
