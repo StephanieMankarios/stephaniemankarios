@@ -1,47 +1,7 @@
-<!-- work-with-us.nunjucks -->
+<!-- price-table-test.nunjucks -->
 {% extends "layout.nunjucks" %}
 
-
-
-{% block content %}
-
-<style>
-.thumbnail {
-	padding: 30px;
-  box-shadow: 5px 5px 5px grey;
-  font-family: "Open Sans";
-}
-.thumbnail h4 {
-  border: 1px solid #333;
-  text-align: center;
-  height: 40px;
-  line-height: 40px;
-  width: 100%;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.thumbnail h4:hover {
-  color: #00BFF3;
-}
-
-.thumbnail h3 {
-  text-align: center;
-}
-
-.thumbnail h2 {
-  text-align: center;
-}
-.thumbnail h2:hover {
-  color: #00BFF3;
-}
-
-.thumbnail li {
-  margin-left: 40px;
-}
-  
-</style>
-
-
+ {% block content %}
 
 <div class="jumbotron work-with-me-page">
   <div class="container">
@@ -65,115 +25,143 @@
 	<!-- ./jumbotron -->
 
 
-
-<!--main content start-->
 <div class="main-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-            
-<div class="col-md-6">
-  <div class="thumbnail">
-    <!--<img src="http://placehold.it/500x250/EEE">-->
-    <div class="caption">
-      <h4>1-Month Student Package</h4>
-      <p>Includes:</p>
-      <ul>
-        <li>4 sessions</li>
-        <li>45 - 60 minutes each</li>
-      </ul>
-      <h3>$497</h3>
-      <br>
-      <p><i>* valid proof of being a student required</i></p>
-    </div>
-  </div>
-</div>
+
+<section class="container">
+	<div class="row">
+	<div class="col-md-8">
+
+
+
+		<div class="block">
+
+			<div class="col-md-6">
+				<div class="pricing-box">
+				<ul class="pricing p-purple p-1-month-student-package">
+					<li>
+						<div class="img" href="#"></div>
+						<big>1-Month Student Package</big>
+					</li>
+					<li>Includes:</li>
+					<li>4 sessions</li>
+					<li>45 - 60 minutes each</li>
+					<li>* Must show proof of current student attendance</li>
+					<li><h3>$497</h3></li>
+					<li class="link">Join Now</li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="pricing-box">
+				<ul class="pricing p-dark-slate-green p-1-month-package">
+					<li>
+						<div class="img" href="#"></div>
+						<big>1-Month Package</big>
+					</li>
+					<li>Includes:</li>
+					<li>4 sessions</li>
+					<li>45 - 60 minutes each</li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li>
+						<h3>$697</h3>
+					</li>
+					<li class="link">Join Now</li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="pricing-box">
+				<ul class="pricing p-indian-red p-3-month-package">
+					<li>
+						<div class="img" href="#"></div>
+						<big>3-Month Package</big>
+					</li>
+					<li>6 bi-weekly sessions</li>
+					<li>45 - 60 minutes each</li>
+					<li>Free email support for the weeks in between sessions</li>
+						<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li>
+						<h3>$997</h3>
+					</li>
+					<li class="link">Join Now</li>
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="pricing-box">
+				<ul class="pricing p-fiord p-6-month-package">
+					<li>
+						<div class="img" href="#"></div>
+						<big>6-Month Package</big>
+					</li>
+					<li>13 bi-weekly sessions</li>
+					<li>45 - 60 minutes each</li>
+					<li>Free email support for the weeks in between sessions</li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li>
+						<h3>$1557</h3>
+					</li>
+					<li class="link">Join Now</li>
+				</ul>
+				</div>
+			</div>
+
+
+
+
 
 <div class="col-md-6">
-  <div class="thumbnail">
-    <!--<img src="http://placehold.it/500x250/EEE">-->
-    <div class="caption">
-      <h4>1-Month Package</h4>
-      <p>Includes:</p>
-      <ul>
-        <li>4 sessions</li>
-        <li>45 - 60 minutes each</li>
-        <li>4 support emails</li>
-      </ul>
-<br><br>
-
-      <h3>$697</h3>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-6">
-  <div class="thumbnail">
-    <!--<img src="http://placehold.it/500x250/EEE">-->
-    <div class="caption">
-      <h4>3-Month Package</h4>
-      <p>Includes:</p>
-      <ul>
-        <li>6 bi-weekly sessions</li>
-        <li>45 - 60 minutes each</li>
-        <li>Free email support for the weeks in between sessions</li>
-      </ul>
-
-      <h3>$997</h3>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-6">
-  <div class="thumbnail">
-    <!--<img src="http://placehold.it/500x250/EEE">-->
-    <div class="caption">
-      <h4>6-Month Package</h4>
-      <p>Includes:</p>
-      <ul>
-        <li>13 bi-weekly sessions</li>
-        <li>45 - 60 minutes each</li>
-        <li>Free email support for the weeks in between sessions</li>
-      </ul>
-
-      <h3>$1557</h3>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-6">
-  <div class="thumbnail">
-    <!--<img src="http://placehold.it/500x250/EEE">-->
-    <div class="caption">
-      <h3 class="text-capitalize" style="color: #00BFF3"><strong>best value</strong></h3>
-      <h4>12-Month Package</h4>
-      <p>Includes:</p>
-      <ul>
-        <li>Weekly sessions (up to 50 total)</li>
+				<div class="pricing-box">
+				<ul class="pricing p-purple p-12-month-package">
+					<li>
+						<div class="img" href="#"></div>
+						<big>12-Month Package</big>
+					</li>
+					<li>Includes:</li>
+					<li>Weekly sessions (up to 50 total)</li>
         <li>30 - 60 minutes each</li>
         <li>Free weekday email support</li>
         <li>The knowledge of knowning someone has your back &amp; is always there for you</li>
-      </ul>
+					<li><h3>$4997</h3></li>
+					<li class="link">Join Now</li>
+				</ul>
+				</div>
+			</div>
 
-      <h3>$4997</h3>
-    </div>
-  </div>
-</div>
+			<div class="col-md-6">
+				<div class="pricing-box">
+				<ul class="pricing p-dark-slate-green p-additional-email-coaching">
+					<li>
+						<div class="img" href="#"></div>
+						<big>Additional Email Coaching</big>
+					</li>
+					<li>Includes:</li>
+						<li>Up to 300-word coaching responses</li>
 
-<div class="col-md-6">
-  <div class="thumbnail">
-    <!--<img src="http://placehold.it/500x250/EEE">-->
-    <div class="caption">
-      <h4>Additional Email Coaching</h4>
-      <p>Includes:</p>
-      <ul>
-        <li>Up to 300-word coaching responses</li>
-      </ul>
-<br><br><br><br><br><br>
-      <h3>$75</h3>
-    </div>
-  </div>
-</div>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li>
+						<h3>$697</h3>
+					</li>
+					<li class="link">Join Now</li>
+				</ul>
+				</div>
+			</div>
+
 
 <div class="col-md-12">
 <p>* In person via Skype or phone</p>
@@ -182,70 +170,86 @@
 <p>* 24-hour cancellation or reschedule notice for your coaching sessions</p>
 </div>
 
-<div class="col-md-6">
-  <div class="thumbnail">
-    <!--<img src="http://placehold.it/500x250/EEE">-->
-    <div class="caption">
-      <h2>20 Class Card</h2>
-      <h3>$1000</h3>
-    </div>
-  </div>
-</div>
+
 
 <div class="col-md-6">
-  <div class="thumbnail">
-    <!--<img src="http://placehold.it/500x250/EEE">-->
-    <div class="caption">
-      <h2>10 Class Card</h2>
-      <h3>$600</h3>
-    </div>
-  </div>
-</div>
+				<div class="pricing-box">
+				<ul class="pricing p-indian-red p-1-class-card">
+					<li>
+						<div class="img" href="#"></div>
+						<big>1-Class Card</big>
+					</li>
+					<li><h3>$80</h3></li>
+					<li class="link">Join Now</li>
+					
+				</ul>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="pricing-box">
+				<ul class="pricing p-fiord p-5-class-card">
+					<li>
+						<div class="img" href="#"></div>
+						<big>5-Class Card</big>
+					</li>
+					<li><h3>$350</h3></li>
+					<li class="link">Join Now</li>
+					
+				</ul>
+				</div>
+			</div>
+
+
 
 <div class="col-md-6">
-  <div class="thumbnail">
-    <!--<img src="http://placehold.it/500x250/EEE">-->
-    <div class="caption">
-      <h2>5 Class Card</h2>
-      <h3>$350</h3>
-    </div>
-  </div>
-</div>
+				<div class="pricing-box">
+				<ul class="pricing p-purple p-10-class-card">
+					<li>
+						<div class="img" href="#"></div>
+						<big>10-Class Card</big>
+					</li>
+					<li><h3>$600</h3></li>
+					<li class="link">Join Now</li>
+					
+				</ul>
+				</div>
+			</div>
 
-<div class="col-md-6">
-  <div class="thumbnail">
-    <!--<img src="http://placehold.it/500x250/EEE">-->
-    <div class="caption">
-      <h2>1 Class Card</h2>
-      <h3>$80</h3>
-    </div>
-  </div>
-</div>
+			<div class="col-md-6">
+				<div class="pricing-box">
+				<ul class="pricing p-dark-slate-green p-12-class-card">
+					<li>
+						<div class="img" href="#"></div>
+						<big>12-Class Card</big>
+					</li>
+					<li><h3>$1000</h3></li>
+					<li class="link">Join Now</li>
+					
+				</ul>
+				</div>
+			</div>
 
 <div class="col-md-12">
-<p>* All classes are 60 minutes</p>
-<p>* You'll need to have your webcam set up to allow me to see your full body to make corrections</p>
-<p>* If you live in the Bay Area, contact me for in-person options</p>
-
-<p>Types of classes offered:</p>
+<!--<p>Types of classes offered:</p>-->
+  <p>My flows are a fusion of different styles</p>
 <ul>
-  <li>My flows are a fusion of different styles</li>
-  <ul>
     <p>I also offer:</p>
     <li>Yin yoga</li>
     <li>Gentle yoga</li>
     <li>Guided meditation</li>
-  </ul>
 </ul>
-</div>
 
 
-            
-            </div>
-            {% include "partials/sidebar.nunjucks" %}
-        </div>
-    </div>
 </div>
-<!-- end main content-->
+
+		</div><!-- /block -->
+	</div><!-- /col-md-8 -->
+{% include "partials/sidebar.nunjucks" %}
+	</div><!-- /row -->
+</section>
+	<!-- /section -->
+
+	</div><!-- /main -->
 
 {% endblock %}
