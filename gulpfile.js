@@ -162,7 +162,7 @@ gulp.task('watch', function () {
 	gulp.watch('app/assets/js/scripts.js', ['scripts']);
 	gulp.watch('app/assets/scss/*.scss', ['styles']);
 	gulp.watch('app/**/*.html', ['html']);
-	gulp.watch('app/assets/**/*.nunjucks', ['nunjucks']);
+	gulp.watch('app/assets/**/*.njk', ['nunjucks']);
 });
 
 /*-----------------------------------------------------------------
