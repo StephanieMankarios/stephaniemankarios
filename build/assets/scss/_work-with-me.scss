@@ -1,0 +1,603 @@
+    @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+    .body-price {
+      background: white;
+      color: #111;
+      min-width: 320px;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -webkit-backface-visibility: hidden;
+      position: relative;
+      padding: 50px 20px;
+    }
+    
+    .pricing-box {
+      background-color: white;
+      border-radius: 25px;
+    }
+    .pricing {
+      text-align: center;
+      border: 1px solid #f0f0f0;
+      border-radius: 25px;
+      color: #777;
+      font-size: 14px;
+      padding-left: 0;
+      margin-bottom: 30px;
+      font-family: 'Lato';
+    }
+    
+    .pricing img {
+      display: block;
+      margin: auto;
+      width: 32px;
+    }
+    
+    .pricing li:first-child,
+    .pricing li:last-child {
+      padding: 20px 13px;
+    }
+    
+    .pricing li {
+      list-style: none;
+      padding: 13px;
+    }
+    /*.pricing li + li {
+	border-top: 1px solid #f0f0f0;
+  }*/
+    
+    .pricing big {
+      font-size: 32px;
+    }
+    
+    .pricing h3 {
+      margin-bottom: 0;
+      font-size: 36px;
+    }
+    
+    .pricing span {
+      font-size: 12px;
+      color: #999;
+      font-weight: normal;
+    }
+    
+    .pricing li:nth-last-child(2) {
+      padding: 30px 13px;
+    }
+    
+    .pricing button {
+      width: auto;
+      margin: auto;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 50px;
+      color: #fff;
+      padding: 9px 24px;
+      background: #aaa;
+      opacity: 1;
+      transition: opacity .2s ease;
+      border: none;
+      outline: none;
+    }
+    
+    // .pricing button:hover {
+    //   opacity: .9;
+    // }
+    
+    // .pricing button:active {
+    //   box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.1);
+    // }
+
+
+
+
+
+
+    /*---- PRICING COLORS ---*/
+
+    /* start of 1-month-student-package/purple */
+    
+    .p-1-month-student-package big,
+    .p-1-month-student-package h3 {
+      color: $purple;
+    }
+    
+    .p-1-month-student-package:hover {
+      background-color: $purple;
+      
+    }
+    
+    .p-1-month-student-package:hover .link {
+      background-color: white;
+      color: $purple;
+    }
+    
+    .p-1-month-student-package:hover * {
+      color: white;
+    }
+    
+    .p-1-month-student-package li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-1-month-student-package .link {
+      background-color: $purple;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-1-month-student-package .img {
+      display: block;
+      margin: auto;
+      width: 67px;
+      height: 60px;
+      background-image: url("../images/work-with-me/open-arms.png");
+}
+
+.p-1-month-student-package:hover .img {
+  display: block;
+  margin: auto;
+  width: 67px;
+  height: 60px;
+  background-image: url("../images/work-with-me/open-arms-hover.png");
+}
+    /* end of 1-month-student-package/purple */
+
+    /* start of 1-month-package/dark slate green */
+    
+   .p-1-month-package big,
+    .p-1-month-package h3 {
+      color: $dark-slate-green;
+    }
+    
+    .p-1-month-package:hover {
+      background-color: $dark-slate-green;
+    }
+    
+    .p-1-month-package:hover .link {
+      background-color: white;
+      color: $dark-slate-green;
+    }
+    
+    .p-1-month-package:hover * {
+      color: white;
+    }
+    
+    .p-1-month-package li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-1-month-package .link {
+      background-color: $dark-slate-green;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-1-month-package .img {
+      display: block;
+      margin: auto;
+      width: 104px;
+      height: 60px;
+      background-image: url("../images/work-with-me/sun.png");
+}
+
+.p-1-month-package:hover .img {
+  display: block;
+  margin: auto;
+  width: 104px;
+  height: 60px;
+  background-image: url("../images/work-with-me/sun-hover.png");
+}
+
+    /* end of 1-month-package/dark slate green */
+
+
+    /* start of 3-month-package/indian red */
+    
+  .p-3-month-package big,
+    .p-3-month-package h3 {
+      color: $indian-red;
+    }
+    
+    .p-3-month-package:hover {
+      background-color: $indian-red;
+    }
+    
+    .p-3-month-package:hover .link {
+      background-color: white;
+      color: $indian-red;
+    }
+    
+    .p-3-month-package:hover * {
+      color: white;
+    }
+    
+    .p-3-month-package li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-3-month-package .link {
+      background-color: $indian-red;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-3-month-package .img {
+      display: block;
+      margin: auto;
+      width: 54px;
+      height: 60px;
+      background-image: url("../images/work-with-me/flower.png");
+}
+
+.p-3-month-package:hover .img {
+  display: block;
+  margin: auto;
+  width: 54px;
+  height: 60px;
+  background-image: url("../images/work-with-me/flower-hover.png");
+}
+    /* end of 3-month-package/indian red */
+    
+    /* start of 6-month-package/foird */
+.p-6-month-package big,
+    .p-6-month-package h3 {
+      color: $fiord;
+    }
+    
+    .p-6-month-package:hover {
+      background-color: $fiord;
+    }
+    
+    .p-6-month-package:hover .link {
+      background-color: white;
+      color: $fiord;
+    }
+    
+    .p-6-month-package:hover * {
+      color: white;
+    }
+    
+    .p-6-month-package li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-6-month-package .link {
+      background-color: $fiord;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-6-month-package .img {
+      display: block;
+      margin: auto;
+      width: 54px;
+      height: 60px;
+      background-image: url("../images/work-with-me/pray-hands.png");
+}
+
+.p-6-month-package:hover .img {
+  display: block;
+  margin: auto;
+  width:54px;
+  height: 60px;
+  background-image: url("../images/work-with-me/pray-hands-hover.png");
+}
+    /* end of 6-month-package/fiord */
+
+
+
+
+
+
+
+
+
+    /* start of 12-month-package/purple */
+
+  .p-12-month-package big,
+    .p-12-month-student-package h3 {
+      color: $purple;
+    }
+    
+    .p-12-month-package:hover {
+      background-color: $purple;
+      
+    }
+    
+    .p-12-month-package:hover .link {
+      background-color: white;
+      color: $purple;
+    }
+    
+    .p-12-month-package:hover * {
+      color: white;
+    }
+    
+    .p-12-month-package li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-12-month-package .link {
+      background-color: $purple;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-12-month-package .img {
+      display: block;
+      margin: auto;
+      width: 64px;
+      height: 60px;
+      background-image: url("../images/work-with-me/lotus.png");
+}
+
+.p-12-month-package:hover .img {
+  display: block;
+  margin: auto;
+  width: 64px;
+  height: 60px;
+  background-image: url("../images/work-with-me/lotus-hover.png");
+}
+
+    /* end of 12-month-package/purple */
+
+
+    /* start of additional-email-coaching/fiord */
+
+.p-additional-email-coaching big,
+    .p-additional-email-coaching h3 {
+      color: $fiord;
+    }
+    
+    .p-additional-email-coaching:hover {
+      background-color: $fiord;
+    }
+    
+    .p-additional-email-coaching:hover .link {
+      background-color: white;
+      color: $fiord;
+    }
+    
+    .p-additional-email-coaching:hover * {
+      color: white;
+    }
+    
+    .p-additional-email-coaching li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-additional-email-coaching .link {
+      background-color: $fiord;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-additional-email-coaching .img {
+      display: block;
+      margin: auto;
+      width: 60px;
+      height: 60px;
+      background-image: url("../images/work-with-me/30-circles.png");
+}
+
+.p-additional-email-coaching:hover .img {
+  display: block;
+  margin: auto;
+  width:60px;
+  height: 60px;
+  background-image: url("../images/work-with-me/30-circles-hover.png");
+}
+
+/* end of additional-email-coach/fiord */
+
+
+
+
+
+
+
+/* start of 1-class-card/indian red */
+    
+  .p-1-class-card big,
+    .p-1-class-card h3 {
+      color: $indian-red;
+    }
+    
+    .p-1-class-card:hover {
+      background-color: $indian-red;
+    }
+    
+    .p-1-class-card:hover .link {
+      background-color: white;
+      color: $indian-red;
+    }
+    
+    .p-1-class-card:hover * {
+      color: white;
+    }
+    
+    .p-1-class-card li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-1-class-card .link {
+      background-color: $indian-red;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-1-class-card .img {
+      display: block;
+      margin: auto;
+      width: 54px;
+      height: 60px;
+      background-image: url("../images/work-with-me/sun-arms-up.png");
+}
+
+.p-1-class-card:hover .img {
+  display: block;
+  margin: auto;
+  width: 54px;
+  height: 60px;
+  background-image: url("../images/work-with-me/sun-arms-up-hover.png");
+}
+    /* end of 1-class-card/indian red */
+
+
+
+     /* start of 5-class-card/foird */
+.p-5-class-card big,
+    .p-5-class-card h3 {
+      color: $fiord;
+    }
+    
+    .p-5-class-card:hover {
+      background-color: $fiord;
+    }
+    
+    .p-5-class-card:hover .link {
+      background-color: white;
+      color: $fiord;
+    }
+    
+    .p-5-class-card:hover * {
+      color: white;
+    }
+    
+    .p-5-class-card li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-5-class-card .link {
+      background-color: $fiord;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-5-class-card .img {
+      display: block;
+      margin: auto;
+      width: 42px;
+      height: 60px;
+      background-image: url("../images/work-with-me/cupped-hands.png");
+}
+
+.p-5-class-card:hover .img {
+  display: block;
+  margin: auto;
+  width:42px;
+  height: 60px;
+  background-image: url("../images/work-with-me/cupped-hands-hover.png");
+}
+    /* end of 5-class-card/fiord */
+
+
+
+    /* start of 10-class-card/purple */
+
+  .p-10-class-card big,
+    .p-12-month-student-package h3 {
+      color: $purple;
+    }
+    
+    .p-10-class-card:hover {
+      background-color: $purple;
+      
+    }
+    
+    .p-10-class-card:hover .link {
+      background-color: white;
+      color: $purple;
+    }
+    
+    .p-10-class-card:hover * {
+      color: white;
+    }
+    
+    .p-10-class-card li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-10-class-card .link {
+      background-color: $purple;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-10-class-card .img {
+      display: block;
+      margin: auto;
+      width: 64px;
+      height: 60px;
+      background-image: url("../images/work-with-me/lotus.png");
+}
+
+.p-10-class-card:hover .img {
+  display: block;
+  margin: auto;
+  width: 64px;
+  height: 60px;
+  background-image: url("../images/work-with-me/lotus-hover.png");
+}
+    /* end of 10-class-card/purple */
+
+
+
+/* start of 12-class-card/dark slate green */
+    
+   .p-12-class-card big,
+    .p-12-class-card h3 {
+      color: $dark-slate-green;
+    }
+    
+    .p-12-class-card:hover {
+      background-color: $dark-slate-green;
+    }
+    
+    .p-12-class-card:hover .link {
+      background-color: white;
+      color: $dark-slate-green;
+    }
+    
+    .p-12-class-card:hover * {
+      color: white;
+    }
+    
+    .p-12-class-card li:last-child {
+      border-top: 1px solid #f0f0f0;
+    }
+    
+    .p-12-class-card .link {
+      background-color: $dark-slate-green;
+      color: white;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+
+.p-12-class-card .img {
+      display: block;
+      margin: auto;
+      width: 60px;
+      height: 60px;
+      background-image: url("../images/work-with-me/30-squares.png");
+}
+
+.p-12-class-card:hover .img {
+  display: block;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  background-image: url("../images/work-with-me/30-squares-hover.png");
+}
+
+    /* end of 12-class-card/dark slate green */

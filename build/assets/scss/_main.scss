@@ -37,23 +37,22 @@ Table of contents
     src: url(../fonts/LibreBaskerville-Regular.otf); 
 }
 
-@font-face {
-    font-family: sunday-regular;
-    src: url(../fonts/Sunday-Regular.otf); 
-}
+// @font-face {
+//     font-family: sunday-regular;
+//     src: url(../fonts/Sunday-Regular.otf); 
+// }
 /*--------------------------------------
     elements
 --------------------------------------*/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: #F4F4F4;
 }
 
 span,
 p,
 input {
-    font-family: 'Merriweather', serif;
     line-height: 26px;
 }
 
@@ -68,12 +67,17 @@ h4,
 h5,
 h6 {
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
+    // font-family: 'Open Sans', sans-serif;
 }
 
 a {
     text-decoration: none;
     display: inline-block;
+    color: $primary-color;
+}
+
+a:hover {
+	color: $dark;
 }
 
 ul {
@@ -128,6 +132,7 @@ header
     border-color: #e7e7e7;
 }
 
+
 // .i_con {
 //     float: right;
 //     position: relative;
@@ -151,6 +156,7 @@ header
 .main-menu li {
     display: inline-block;
     position: relative;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .main-menu ul .sub-menu {
@@ -161,6 +167,7 @@ header
 .main-menu .navbar-nav li a:active,
 .main-menu .navbar-nav>li a:focus {
     color: #00BFF3;
+    
 }
 
 .navbar-default .navbar-nav>.open>a,
@@ -360,6 +367,7 @@ a.more-link {
     border: 1px solid #eee;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+    background-color: white;
 }
 
 a.more-link:hover {
@@ -534,12 +542,14 @@ about me
     margin-bottom: 35px;
     background-color: #fff;
     border: 1px solid #eee;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .about-me-widget {
     background: url("assets/images/me-cover.jpg") no-repeat;
     background-size: 100%;
     background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .about-me-img {
@@ -556,6 +566,7 @@ about me
     letter-spacing: 0.5px;
     font-weight: 600;
     padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .img-me {
@@ -566,6 +577,7 @@ about me
 .social-share {
     padding: 10px 0 0;
     margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -1075,21 +1087,17 @@ athuor
 /*===========
 blog css
 =============*/
-.main-content .entry-content {
-    // font-family: sunday-regular;
-}
-
-.post-content, .post-area {
-    strong {
-			font-family: "Merriweather";
-    }
+.post-area {
+    font-size: 1.9rem; 
+    line-height: 3.5rem;
     ul {
         padding: 0 0 0 30px;
         margin: 0;
-        li {
-            font-family: "Merriweather";
-        }
     }
+}
+
+.post-content {
+    font-size: 1.5rem;
 }
 
 .decoration a {

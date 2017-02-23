@@ -24,7 +24,12 @@
 	.navbar-brand img {
 		height: 60px;
 	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+			float: right;
+	}
+
 }
+
 
 /* lg/md */
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -37,6 +42,10 @@
 			line-height: 6.5rem;
 		}
 	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    float: right;
+}
 }
 
 /* md */
@@ -66,6 +75,10 @@
 	.navbar-brand img {
 		height: 60px;
 	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    float: right;
+}
 }
 
 
