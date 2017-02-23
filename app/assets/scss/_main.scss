@@ -1087,6 +1087,31 @@ athuor
 /*===========
 blog css
 =============*/
+
+/* Applies to all body heading title */
+.post-area {
+    background: #fff;
+    padding: 50px 35px;
+    h1 {
+    // margin: 0 0 25px 0;
+    }
+    h1::after {
+      border-bottom: 6px solid $primary-color;
+  content: "";
+  display: block;
+  margin: 0 auto 60px;
+  padding-bottom: 10px;
+  width: 20%;
+    }
+}
+
+
+
+
+.about-p h1 {
+    font-family: "libre-baskerville-regular";
+}
+
 .entry-content {
     ul {
         padding-left: 4rem;
@@ -1107,6 +1132,17 @@ blog css
 
 .post-content {
     font-size: 1.6rem;
+        h1 {
+    font-family: "libre-baskerville-regular";
+    }
+    h1::after {
+        border-bottom: 6px solid $primary-color;
+  content: "";
+  display: block;
+  margin: 0 auto 40px;
+  padding-bottom: 10px;
+  width: 20%;
+    }
 }
 
 .decoration a {
@@ -1475,11 +1511,6 @@ post grid
 /*==========
 about me
 ============*/
-
-.post-area {
-    background: #fff;
-    padding: 50px 35px;
-}
 
 .about-me-text {
     padding: 40px 0;
