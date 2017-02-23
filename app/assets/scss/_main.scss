@@ -1087,6 +1087,15 @@ athuor
 /*===========
 blog css
 =============*/
+.entry-content {
+    ul {
+        padding-left: 4rem;
+        li {
+            padding-bottom: 1rem;
+        }
+    }
+}
+
 .post-area {
     font-size: 1.6rem; 
     // line-height: 3.5rem;
