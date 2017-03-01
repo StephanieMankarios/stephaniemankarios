@@ -48,6 +48,7 @@ Table of contents
 body {
     font-family: 'Montserrat', sans-serif;
     background: #F4F4F4;
+    font-size: 16px;
 }
 
 span,
@@ -91,7 +92,7 @@ ul {
     color: $sidebar-heart;
 }
 
-li span {
+li span, p span {
     position: relative;
     left: 10px;
 }
