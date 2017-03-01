@@ -17,15 +17,13 @@
 	.nav>li>a:first-child {
 		padding-left: 0;
 	}
-	.i_con {
+	.i_con, .navbar-default .navbar-collapse, .navbar-default .navbar-form  {
 		float: right;
 		position: relative;
 	}
+
 	.navbar-brand img {
 		height: 60px;
-	}
-	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-			float: right;
 	}
 
 }
@@ -43,10 +41,15 @@
 		}
 	}
 
-	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    float: right;
+	.i_con, .navbar-default .navbar-collapse, .navbar-default .navbar-form  {
+		float: right;
+		position: relative;
+	}
+	.nav > li > a {
+		padding: 25px 15px;
+	}
 }
-}
+
 
 /* md */
 
