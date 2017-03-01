@@ -83,8 +83,18 @@ a:hover {
 ul {
     padding: 0;
     margin: 0;
+    list-style-type: none;
 }
 
+
+.fa-heart {
+    color: $sidebar-heart;
+}
+
+li span {
+    position: relative;
+    left: 10px;
+}
 
 .media .media-left {
     float: left;
@@ -330,7 +340,6 @@ article {
     font-size: 24px;
 }
 
-.entry-header h6 {}
 
 .entry-header h6 a {
     color: #00acdf;
@@ -557,9 +566,7 @@ about me
     z-index: 2;
 }
 
-.about-me-content {
-    /*padding-top: 27%;*/
-}
+
 
 .about-me-content h3 {
     font-size: 18px;
@@ -865,7 +872,6 @@ Instagram
     float: left;
 }
 
-.instagram-follow {}
 
 
 /*=======
