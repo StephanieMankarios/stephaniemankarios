@@ -57,6 +57,10 @@ input {
     line-height: 26px;
 }
 
+p {
+    margin-bottom: 25px
+}
+
 img {
     max-width: 100%;
 }
@@ -68,7 +72,8 @@ h4,
 h5,
 h6 {
     font-weight: 600;
-    // font-family: 'Open Sans', sans-serif;
+    margin-bottom: 25px
+    
 }
 
 a {
@@ -85,6 +90,9 @@ ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
+    li {
+        margin-bottom: 25px;
+    }
 }
 
 
