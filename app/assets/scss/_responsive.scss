@@ -11,6 +11,15 @@
 	.jumbotron.about-page {
 		height: 100vh;
 	}
+
+	.jumbotron.work-with-me-page {
+		height: 112vh;
+		p {
+			font-size: 6.5rem;
+			margin-top: 465px;
+		}
+	}
+
 	.show-search {
 		right: 20%;
 	}
@@ -34,6 +43,7 @@
 	.navbar-brand img {
 		height: 60px;
 	}
+
 		.jumbotron.home-page {
 		.text-center p {
 			font-size: 5rem;
@@ -43,6 +53,15 @@
 
 	.jumbotron.contact-page {
 		height: 100vh;
+	}
+
+	.jumbotron.work-with-me-page {
+		height: 110vh;
+		p {
+			font-size: 6.5rem;
+			margin-top: 455px;
+			margin-left: 35px;
+		}
 	}
 
 	.i_con, .navbar-default .navbar-collapse, .navbar-default .navbar-form  {
@@ -71,6 +90,15 @@
 
 	.jumbotron.contact-page {
 		height: 85vh;
+	}
+	
+	.jumbotron.work-with-me-page {
+		height: 67vh;
+		p {
+			font-size: 5rem;
+			margin-top: 315px;
+			margin-right: 50px;
+		}
 	}
 	
 	.nav>li>a {
@@ -111,10 +139,6 @@
 	.jumbotron.contact-page {
 		height: 65vh;
 	}
-	.btn-group-lg > .btn, .btn-lg {
-		font-size: 1.2rem;
-		padding: 15px 30px;
-	}
 
 	.jumbotron.about-page {
 		height: 70vh;
@@ -122,6 +146,19 @@
 			font-size: 5rem;
 		}
 	}
+
+.jumbotron.work-with-me-page {
+	height: 63vh;
+	p {
+		font-size: 4rem;
+		margin-top: 190px;
+	}
+}
+	.btn-group-lg > .btn, .btn-lg {
+		font-size: 1.2rem;
+		padding: 15px 30px;
+	}
+
 	.navbar-brand img {
 		height: 90px;
 	}
@@ -192,7 +229,6 @@
 
 
 /* xs */
-// @media (min-width: 480px) and (max-width: 767px) {
 @media (max-width: 767px) {
 	.jumbotron.home-page {
 		height: 45vh;
@@ -203,9 +239,20 @@
 			font-size: 2rem;
 		}
 	}
-	.jumbotron.about-page, .jumbotron.contact-page {
+	.jumbotron.about-page, .jumbotron.contact-page{
 		height: 43vh;
+			p {
+				font-size: 4.5rem;
+			}
+	}
 
+	.jumbotron.work-with-me-page  {
+		height: 40vh;
+		p {
+			font-size: 3rem;
+			margin-top: 90px;
+			margin-right:305px
+		}
 	}
 	
 
@@ -291,6 +338,13 @@
 		}
 	}
 
+	.jumbotron.work-with-me-page {
+		height: 33vh;
+		p {
+			margin-top: 125px;
+			margin-right: 0;
+		}
+	}
 
 	.btn-group-lg>.btn,
 	.btn-lg {
