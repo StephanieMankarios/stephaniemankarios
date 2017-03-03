@@ -49,6 +49,7 @@
 	}
 
 		.jumbotron.home-page {
+			height: 91vh;
 		.text-center p {
 			font-size: 5rem;
 			line-height: 6.5rem;
@@ -86,7 +87,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.jumbotron.home-page {
-		height: 93vh;
+		height: 78vh;
 		.text-center p {
 			font-size: 4rem;
 			line-height: 5rem;
