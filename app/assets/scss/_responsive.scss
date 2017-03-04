@@ -7,11 +7,16 @@
 	
 	.jumbotron.home-page {
 		height: 100vh;
-		.text-center p {
+		.text-center p:first-child {
 			font-size: 5rem;
 			line-height: 6.5rem;
 			}
+			.text-center p:nth-child(2), .text-center p:nth-child(3) {
+				font-size: 3rem;
+				line-height: 4.5rem;
+			}
 	}
+
 	.jumbotron.about-page {
 		height: 100vh;
 	}
@@ -59,11 +64,16 @@
 
 		.jumbotron.home-page {
 			height: 91vh;
-		.text-center p {
-			font-size: 5rem;
-			line-height: 6.5rem;
+			.text-center p:first-child {
+				font-size: 5rem;
+				line-height: 6.5rem;
+			}
+			.text-center p:nth-child(2),
+			.text-center p:nth-child(3) {
+				font-size: 3rem;
+				line-height: 4.5rem;
+			}
 		}
-	}
 
 .jumbotron.about-page {
 	height: 91vh;
@@ -102,11 +112,17 @@
 	
 	.jumbotron.home-page {
 		height: 78vh;
-		.text-center p {
+		.text-center p:first-child {
 			font-size: 4rem;
-			line-height: 6.5rem;
+			line-height: 5.5rem;
+		}
+		.text-center p:nth-child(2),
+		.text-center p:nth-child(3) {
+			font-size: 3rem;
+			line-height: 4.5rem;
 		}
 	}
+
 	.jumbotron.about-page {
 		height: 78vh;
 	}
@@ -158,8 +174,14 @@
 
 	.jumbotron.home-page {
 		height: 50vh;
-		.text-center p {
+	.text-center p:first-child {
 			font-size: 3rem;
+			// line-height: 5.5rem;
+		}
+		.text-center p:nth-child(2),
+		.text-center p:nth-child(3) {
+			font-size: 2rem;
+			// line-height: 4.5rem;
 		}
 	}
 
@@ -262,8 +284,12 @@
 		.text-center {
 			padding-right: 50%;
 		}
-		p {
-			font-size: 2rem;
+	.text-center p:first-child {
+			font-size: 1.5rem;
+		}
+		.text-center p:nth-child(2),
+		.text-center p:nth-child(3) {
+			font-size: 1rem;
 		}
 	}
 	.jumbotron.about-page, .jumbotron.contact-page{
