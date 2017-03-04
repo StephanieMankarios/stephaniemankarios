@@ -27,6 +27,11 @@
 
 	.jumbotron.contact-page {
 		height: 110vh;
+		p {
+			font-size: 8rem;
+			margin-top: 200px;
+			margin-left: 800px;
+		}
 	}
 
 	.jumbotron.work-with-me-page {
@@ -89,6 +94,10 @@
 
 	.jumbotron.contact-page {
 		height: 91vh;
+			p {
+			margin-top: 50px;
+			margin-left: 800px;
+		}
 	}
 
 	.jumbotron.work-with-me-page {
@@ -141,6 +150,11 @@
 
 	.jumbotron.contact-page {
 		height: 78vh;
+		p {
+			font-size: 6rem;
+			margin-top: 200px;
+			margin-left: 500px;
+		}
 	}
 	
 	.jumbotron.work-with-me-page {
@@ -199,6 +213,11 @@
 
 	.jumbotron.contact-page {
 		height: 50vh;
+			p {
+				font-size: 5rem;
+			margin-top: 100px;
+			margin-right: 500px;
+		}
 	}
 
 	.jumbotron.about-page {
@@ -404,6 +423,17 @@
 			font-size: 1.5rem;
 		}
 	}
+
+
+.jumbotron.contact-page {
+		height: 37vh;
+			p {
+				font-size: 3rem;
+			margin-top: 50px;
+			margin-left: 200px;
+		}
+	
+}
 
 
 .jumbotron.about-page {
