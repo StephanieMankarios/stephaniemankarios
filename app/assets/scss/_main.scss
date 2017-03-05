@@ -122,6 +122,49 @@ li span, p span {
 header
 ---------------------*/
 
+
+// CTA button
+.subscribe-form {
+	margin: 20px 0;
+}
+
+.input-group {
+	position: relative;
+	display: table;
+	border-collapse: separate;
+}
+
+.input-group .form-control {
+	font-size: 1.5rem;
+	border-radius: 25px;
+}
+
+.subscribe-form .input-group-btn .btn {
+	font-size: 1.6rem;
+	padding-left: 30px;
+  padding-right: 30px;
+  -webkit-border-radius: 0 25px 25px 0;
+  -moz-border-radius: 0 25px 25px 0;
+  -ms-border-radius: 0 25px 25px 0;
+  -o-border-radius: 0 25px 25px 0;
+  border-radius: 0 25px 25px 0;
+}
+
+.btn-theme {
+	color: #fff;
+	background-color: $primary-color;
+}
+
+.jumbotron.home-page p {
+	color: white;
+	font-size: 1.5rem;
+}
+
+
+
+
+
+
 .main-menu.navbar-default {
     background-color: #fff;
     border-color: #e5e5e5;
@@ -886,7 +929,6 @@ Instagram
     text-decoration: none;
     list-style: none;
     margin: 0;
-    float: left;
 }
 
 
@@ -1115,9 +1157,6 @@ blog css
 .post-area {
     background: #fff;
     padding: 50px 35px;
-    h1 {
-    // margin: 0 0 25px 0;
-    }
     h1::after {
       border-bottom: 6px solid $primary-color;
   content: "";
@@ -1561,7 +1600,6 @@ about me
     padding-bottom: 30px;
 }
 
-.about-us-text {}
 
 .about-us-text h4 {
     letter-spacing: 1px;
