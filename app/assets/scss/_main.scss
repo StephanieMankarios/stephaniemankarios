@@ -997,12 +997,12 @@ athuor
 }
 
 .single-review {
-    padding-top: 30px;
+    // padding-top: 30px;
 }
 
 .review-text {
     border-width: 1px 1px 1px;
-    border-style: solid;
+    // border-style: solid;
     border-color: #fff;
     padding: 18px;
     position: relative;
@@ -1015,21 +1015,21 @@ athuor
     margin: 0;
 }
 
-.review-text::after,
-.review-text::before {
-    top: 100%;
-    left: 15%;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-}
+// .review-text::after,
+// .review-text::before {
+//     top: 100%;
+//     left: 15%;
+//     content: " ";
+//     height: 0;
+//     width: 0;
+//     position: absolute;
+// }
 
-.review-text::after {
-    border-right: 17px solid transparent;
-    border-top: 18px solid #333333;
-    border-left: 7px solid transparent;
-}
+// .review-text::after {
+//     border-right: 17px solid transparent;
+//     border-top: 18px solid #333333;
+//     border-left: 7px solid transparent;
+// }
 
 .review-text::before {
     border-right: 19px solid transparent;
