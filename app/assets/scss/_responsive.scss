@@ -309,6 +309,7 @@
 
 /* xs */
 @media (max-width: 767px) {
+	
 	.jumbotron.home-page {
 		height: 45vh;
 		.text-center {
@@ -414,6 +415,48 @@
 /* XS Portrait */
 
 @media (max-width: 479px) {
+
+.jumbotron.home-page .text-center {
+	padding-right: 28%;
+}
+
+
+.sidebar .read-1 img {
+	width: 44%;
+}
+
+.sidebar .read-2 img {
+	width: 21%;
+}
+
+.sidebar .read-3 img {
+	width: 44%;
+}
+
+.sidebar .read-4 img {
+	width: 44%;
+}
+
+
+// Index header
+	.jumbotron.home-page .text-center p:nth-child(2), .jumbotron.home-page .text-center p:nth-child(3), .jumbotron.home-page .text-center p:nth-child(5) {
+		font-size: 1.2rem;
+	}
+
+	.subscribe-form .input-group-btn .btn, .input-group .form-control {
+		font-size: 1rem;
+	}
+	
+.subscribe-form .input-group-btn .btn {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
+	height: 33px;
+}
+
+
 	.jumbotron.home-page, .jumbotron.contact-page {
 		height: 37vh;
 		p {
