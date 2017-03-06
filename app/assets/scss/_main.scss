@@ -153,9 +153,14 @@ header
   border-radius: 0 25px 25px 0;
 }
 
+
 .btn-theme {
 	color: #fff;
 	background-color: $primary-color;
+    &:hover {
+        background-color: $dark;
+        color: #fff;
+    }
 }
 
 .jumbotron.home-page p {
