@@ -6,7 +6,7 @@
 	}
 	
 	.jumbotron.home-page {
-		height: 100vh;
+		min-height: 900px;
 		.text-center p:first-child {
 			font-size: 5rem;
 			line-height: 6.5rem;
@@ -18,7 +18,7 @@
 	}
 
 	.jumbotron.about-page {
-		height: 100vh;
+		min-height: 900px;
 		p {
 			margin-top: 350px;
 			margin-right: 300px;
@@ -26,7 +26,7 @@
 	}
 
 	.jumbotron.contact-page {
-		height: 110vh;
+		min-height: 900px;
 		p {
 			font-size: 8rem;
 			margin-top: 200px;
@@ -35,7 +35,7 @@
 	}
 
 	.jumbotron.work-with-me-page {
-		height: 97vh;
+		min-height: 800px;
 		p {
 			font-size: 6.5rem;
 			margin-top: 465px;
@@ -72,7 +72,7 @@
 	}
 
 		.jumbotron.home-page {
-			height: 91vh;
+			min-height: 900px;
 			.text-center p:first-child {
 				font-size: 5rem;
 				line-height: 6.5rem;
@@ -85,7 +85,7 @@
 		}
 
 .jumbotron.about-page {
-	height: 91vh;
+	min-height: 900px;
 		p {
 		margin-top: 350px;
 		margin-right: 300px;
@@ -93,7 +93,7 @@
 }
 
 	.jumbotron.contact-page {
-		height: 91vh;
+		min-height: 900px;
 			p {
 			margin-top: 200px;
 			margin-left: 800px;
@@ -101,7 +101,7 @@
 	}
 
 	.jumbotron.work-with-me-page {
-		height: 80vh;
+		min-height: 800px;
 		p {
 			font-size: 6.5rem;
 			margin-top: 455px;
