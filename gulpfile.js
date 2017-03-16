@@ -97,9 +97,9 @@ gulp.task('html', function () {
  * IMAGE COMPRESSION TASK
  *-----------------------------------------------------------------*/
 gulp.task('imagemin', function () {
-	gulp.src('app/images/**/*')
+	gulp.src('app/assets/images/**/*')
 		.pipe(imagemin())
-		.pipe(gulp.dest('app/images/**/*'))
+		.pipe(gulp.dest('build/images/**/*'))
 });
 
 /*-----------------------------------------------------------------
@@ -168,5 +168,5 @@ gulp.task('watch', function () {
 /*-----------------------------------------------------------------
  * DEFAULT TASK - a task that calls other tasks
  *-----------------------------------------------------------------*/
-//gulp.task('default', ['scripts', 'styles', 'nunjucks', 'html', 'imagemin', 'browser-sync', 'watch']);
+// gulp.task('default', ['scripts', 'styles', 'nunjucks', 'html', 'imagemin', 'browser-sync', 'watch']);
 gulp.task('default', ['scripts', 'styles', 'nunjucks', 'html', 'browser-sync', 'watch']);
