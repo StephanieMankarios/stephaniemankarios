@@ -25,13 +25,6 @@ var sassOptions = {
 /*-----------------------------------------------------------------
  * SCRIPT TASK
  *-----------------------------------------------------------------*/
-//gulp.task('scripts', function() {
-//	gulp.src(['app/js/**/*.js', '!app/js/**/*.min.js'])
-//		.pipe(rename({suffix:'.min'}))
-//		.pipe(uglify())
-//		.pipe(gulp.dest('app/js'));
-//});
-
 gulp.task('scripts', function () {
 	gulp.src(['app/js/main.js', '!app/js/*.min.js'])
 		.pipe(plumber())
@@ -99,7 +92,7 @@ gulp.task('html', function () {
 gulp.task('imagemin', function () {
 	gulp.src('app/assets/images/**/*')
 		.pipe(imagemin())
-		.pipe(gulp.dest('build/images/**/*'))
+		.pipe(gulp.dest('build/assets/images/'))
 });
 
 /*-----------------------------------------------------------------
@@ -123,7 +116,7 @@ gulp.task('build:copy', ['build:cleanfolder'], function () {
 gulp.task('build:remove', ['build:copy'], function (cb) {
 	del([
 		'build/scss/',
-		'build/uncomp-img/',
+		// 'build/uncomp-img/',
 		'build/js/!(*.min.js)'
 	], cb())
 });
@@ -147,6 +140,7 @@ gulp.task('browser-sync', function () {
 //Task to run build server for testing final app
 gulp.task('build:serve', function () {
 	browserSync({
+		browser: "google chrome",
 		server: {
 			baseDir: './build/'
 		}
