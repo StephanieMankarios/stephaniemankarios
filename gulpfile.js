@@ -92,7 +92,7 @@ gulp.task('html', function () {
 gulp.task('imagemin', function () {
 	gulp.src('app/assets/images/**/*')
 		.pipe(imagemin())
-		.pipe(gulp.dest('build/assets/images/'))
+		.pipe(gulp.dest('build/assets/images/**/*'))
 });
 
 /*-----------------------------------------------------------------
