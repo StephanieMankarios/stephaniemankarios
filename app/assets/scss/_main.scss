@@ -1211,10 +1211,10 @@ blog css
 
 .testimonials-header, .post-content, .work-with-me-headers {
     font-size: 1.6rem;
-        h1, h3 {
+        h1 { // ,h3
     font-family: "libre-baskerville-regular";
     }
-    h1::after, h3::after {
+    h1::after{ // ,h3::after
         border-bottom: 6px solid $primary-color;
   content: "";
   display: block;
