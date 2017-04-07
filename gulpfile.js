@@ -121,7 +121,7 @@ gulp.task('build:remove', ['build:copy'], function (cb) {
 });
 
 // Simple to default task - kicks off everything
-gulp.task('build', ['build:copy', 'build:remove']);
+gulp.task('build', ['build:copy', 'build:remove','imagemin']);
 
 /*-----------------------------------------------------------------
  * BROWSER-SYNC TASK
