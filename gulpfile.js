@@ -26,13 +26,13 @@ var sassOptions = {
  * SCRIPT TASK
  *-----------------------------------------------------------------*/
 gulp.task('scripts', function () {
-	gulp.src(['app/js/main.js', '!app/js/*.min.js'])
+	gulp.src(['src/js/main.js', '!src/js/*.min.js'])
 		.pipe(plumber())
 		.pipe(rename({
 			suffix: '.min'
 		}))
 		.pipe(uglify())
-		.pipe(gulp.dest('app/js'))
+		.pipe(gulp.dest('src/js'))
 		.pipe(reload({
 			stream: true
 		}));
@@ -44,17 +44,17 @@ gulp.task('scripts', function () {
  *-----------------------------------------------------------------*/
 gulp.task('nunjucks', function () {
 	// Gets .html and .nunjucks files in pages
-	return gulp.src('app/assets/pages/*.+(njk|nunjucks|html)')
+	return gulp.src('src/assets/pages/*.+(njk|nunjucks|html)')
 		// Adding data to Nunjucks
 		// .pipe(data(function () {
-		// 	return require('./app/data.json')
+		// 	return require('./src/data.json')
 		// }))
 		// Renders template with nunjucks
 		.pipe(nunjucksRender({
-			path: ['app/assets/templates/']
+			path: ['src/assets/templates/']
 		}))
-		// output files in app folder
-		.pipe(gulp.dest('app'))
+		// output files in src folder
+		.pipe(gulp.dest('src'))
 });
 
 
@@ -62,14 +62,14 @@ gulp.task('nunjucks', function () {
  * SASS TASK
  *-----------------------------------------------------------------*/
 gulp.task('styles', function() {
-	gulp.src('app/assets/scss/*.scss')
+	gulp.src('src/assets/scss/*.scss')
 		.pipe(plumber())
 		.pipe(sourcemaps.init())
 		.pipe(sass(sassOptions).on('error', sass.logError))
 //    .pipe(cleanCSS({compatibility: 'ie8'}))
 		.pipe(autoprefixer('last 2 versions'))
     .pipe(sourcemaps.write())
-		.pipe(gulp.dest('app/assets/css/'))
+		.pipe(gulp.dest('src/assets/css/'))
 		.pipe(reload({stream:true}));
 })
 
@@ -80,7 +80,7 @@ gulp.task('styles', function() {
  * HTML TASK
  *-----------------------------------------------------------------*/
 gulp.task('html', function () {
-	gulp.src('app/**/*.html')
+	gulp.src('src/**/*.html')
 		.pipe(reload({
 			stream: true
 		}));
@@ -90,9 +90,9 @@ gulp.task('html', function () {
  * IMAGE COMPRESSION TASK
  *-----------------------------------------------------------------*/
 gulp.task('imagemin', function () {
-	gulp.src('app/assets/images/**/*')
+	gulp.src('src/assets/images/**/*')
 		.pipe(imagemin())
-		.pipe(gulp.dest('build/assets/images/**/*'))
+		.pipe(gulp.dest('dist/assets/images/**/*'))
 });
 
 /*-----------------------------------------------------------------
@@ -101,23 +101,22 @@ gulp.task('imagemin', function () {
 // Clear out all files and folders from build folder
 gulp.task('build:cleanfolder', function (cb) {
 	del([
-		'build/**'
+		'dist/**'
 	], cb());
 });
 
 // Create build directory for all files
 gulp.task('build:copy', ['build:cleanfolder'], function () {
-	return gulp.src('app/**/*')
-		.pipe(gulp.dest('build'))
+	return gulp.src('src/**/*')
+		.pipe(gulp.dest('dist'))
 });
 
 // Remove unwanted build files
 // List all files and directories here you don't want to include
 gulp.task('build:remove', ['build:copy'], function (cb) {
 	del([
-		'build/scss/',
-		// 'build/uncomp-img/',
-		'build/js/!(*.min.js)'
+		'dist/scss/',
+		'dist/js/!(*.min.js)'
 	], cb())
 });
 
@@ -131,18 +130,18 @@ gulp.task('browser-sync', function () {
 	browserSync({
 		browser: "google chrome",
 		server: {
-			baseDir: './app/',
+			baseDir: './src/',
 		}
 	});
 });
 
 
-//Task to run build server for testing final app
+//Task to run build server for testing final src
 gulp.task('build:serve', function () {
 	browserSync({
 		browser: "google chrome",
 		server: {
-			baseDir: './build/'
+			baseDir: './dist/'
 		}
 	});
 });
@@ -152,11 +151,11 @@ gulp.task('build:serve', function () {
  * WATCH TASK
  *-----------------------------------------------------------------*/
 gulp.task('watch', function () {
-	//	gulp.watch(['app/js/**/*.js', 'app/scss/**/*.scss'], ['scripts', 'styles'])
-	gulp.watch('app/assets/js/scripts.js', ['scripts']);
-	gulp.watch('app/assets/scss/*.scss', ['styles']);
-	gulp.watch('app/**/*.html', ['html']);
-	gulp.watch('app/assets/**/*.njk', ['nunjucks']);
+	//	gulp.watch(['src/js/**/*.js', 'src/scss/**/*.scss'], ['scripts', 'styles'])
+	gulp.watch('src/assets/js/scripts.js', ['scripts']);
+	gulp.watch('src/assets/scss/*.scss', ['styles']);
+	gulp.watch('src/**/*.html', ['html']);
+	gulp.watch('src/assets/**/*.njk', ['nunjucks']);
 });
 
 /*-----------------------------------------------------------------

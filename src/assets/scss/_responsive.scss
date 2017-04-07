@@ -1,0 +1,514 @@
+/* lg */
+
+@media (min-width: 1400px) {
+	.index-header {
+	margin-top: 120px;
+	}
+	
+	.jumbotron.home-page {
+		min-height: 900px;
+		.text-center p:first-child {
+			font-size: 5rem;
+			line-height: 6.5rem;
+			}
+			.text-center p:nth-child(2), .text-center p:nth-child(3) {
+				font-size: 3rem;
+				line-height: 4.5rem;
+			}
+	}
+
+	.jumbotron.about-page {
+		min-height: 900px;
+		p {
+			margin-top: 350px;
+			margin-right: 300px;
+		}
+	}
+
+	.jumbotron.contact-page {
+		min-height: 900px;
+		p {
+			font-size: 8rem;
+			margin-top: 200px;
+			margin-left: 800px;
+		}
+	}
+
+	.jumbotron.work-with-me-page {
+		min-height: 800px;
+		p {
+			font-size: 6.5rem;
+			margin-top: 465px;
+		}
+	}
+
+	.show-search {
+		right: 20%;
+	}
+	.nav>li>a:first-child {
+		padding-left: 0;
+	}
+	.i_con, .navbar-default .navbar-collapse, .navbar-default .navbar-form  {
+		float: right;
+		position: relative;
+	}
+
+	.navbar-brand img {
+		height: 60px;
+	}
+
+}
+
+
+/* lg/md */
+/* 1366 x 768 */
+@media (min-width: 1200px) and (max-width: 1399px) {
+	.index-header {
+	margin-top: 120px;
+	}
+	
+	.navbar-brand img {
+		height: 60px;
+	}
+
+		.jumbotron.home-page {
+			min-height: 900px;
+			.text-center p:first-child {
+				font-size: 5rem;
+				line-height: 6.5rem;
+			}
+			.text-center p:nth-child(2),
+			.text-center p:nth-child(3) {
+				font-size: 3rem;
+				line-height: 4.5rem;
+			}
+		}
+
+.jumbotron.about-page {
+	min-height: 900px;
+		p {
+		margin-top: 350px;
+		margin-right: 300px;
+	}
+}
+
+	.jumbotron.contact-page {
+		min-height: 900px;
+			p {
+			margin-top: 200px;
+			margin-left: 800px;
+		}
+	}
+
+	.jumbotron.work-with-me-page {
+		min-height: 800px;
+		p {
+			font-size: 6.5rem;
+			margin-top: 455px;
+			margin-left: 35px;
+		}
+	}
+
+	.i_con, .navbar-default .navbar-collapse, .navbar-default .navbar-form  {
+		float: right;
+		position: relative;
+	}
+	.nav > li > a {
+		padding: 25px 15px;
+	}
+}
+
+
+/* md */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.index-header {
+	margin-top: 75px;
+	margin-left: 25px;
+	}
+	
+	.jumbotron.home-page {
+		height: 78vh;
+		.text-center p:first-child {
+			font-size: 4rem;
+			line-height: 5.5rem;
+		}
+		.text-center p:nth-child(2),
+		.text-center p:nth-child(3) {
+			font-size: 3rem;
+			line-height: 4.5rem;
+		}
+	}
+
+	.jumbotron.about-page {
+		height: 78vh;
+				p {
+			margin-top: 250px;
+			margin-right: 300px;
+		}
+	}
+
+	.jumbotron.contact-page {
+		height: 78vh;
+		p {
+			font-size: 6rem;
+			margin-top: 200px;
+			margin-left: 500px;
+		}
+	}
+	
+	.jumbotron.work-with-me-page {
+		height: 43vh;
+		p {
+			font-size: 5rem;
+			margin-top: 315px;
+			margin-right: 50px;
+		}
+	}
+	
+	.nav>li>a:first-child {
+		padding-left: 0;
+	}
+	.i_con {
+		float: right;
+		position: relative;
+		//    padding-right: 35px;
+	}
+	.navbar-brand img {
+		height: 60px;
+	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    float: right;
+}
+}
+
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.index-header {
+	margin-top: 60px;
+}
+	
+	.nav>li>a:first-child {
+		padding-left: 0;
+	}
+
+	.jumbotron.home-page {
+		height: 50vh;
+	.text-center p:first-child {
+			font-size: 3rem;
+			// line-height: 5.5rem;
+		}
+		.text-center p:nth-child(2),
+		.text-center p:nth-child(3) {
+			font-size: 2rem;
+			// line-height: 4.5rem;
+		}
+	}
+
+	.jumbotron.contact-page {
+		height: 50vh;
+			p {
+				font-size: 5rem;
+			margin-top: 100px;
+			margin-right: 500px;
+		}
+	}
+
+	.jumbotron.about-page {
+		height: 50vh;
+		p {
+			font-size: 5rem;
+			margin-top: 200px;
+			margin-right: 300px;
+		}
+	}
+
+.jumbotron.work-with-me-page {
+	height: 43vh;
+	p {
+		font-size: 4rem;
+		margin-top: 190px;
+	}
+}
+	.btn-group-lg > .btn, .btn-lg {
+		font-size: 1.2rem;
+		padding: 15px 30px;
+	}
+
+	.navbar-brand img {
+		height: 90px;
+	}
+	.main-menu .navbar-brand>img {
+		display: block;
+		margin-right: 0;
+		padding: 14px 0
+	}
+	.main-menu .navbar-header {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.main-menu .navbar-brand {
+		float: none;
+	}
+	.main-menu .navbar-nav>li {
+		float: none;
+	}
+	.main-menu .navbar-nav {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	// .nav > li > a {;
+	//     padding: 11px;
+	// }
+	.nav>li>a {
+		// position: relative;
+		// display: block;
+		padding: 45px 30px 0px 30px;
+		// font-size: 12px;
+		// letter-spacing: 1px;
+	}
+	.i_con {
+		float: none;
+		position: relative;
+		padding-right: 40px;
+		width: 100%;
+		text-align: center;
+	}
+	.i_con a i {
+		font-size: 15px;
+		padding: 0 5px 10px;
+		color: #AAAAAA;
+		line-height: 35px;
+	}
+	.show-search {
+		top: 100%;
+		right: 9%;
+	}
+	.single-blog-box .promo-text p {
+		padding-top: 12%;
+	}
+	.latest-first-thumb img,
+	.single-blog-box img,
+	.widget img,
+	.single-promo-box img {
+		width: 100%;
+	}
+	.footer-instagram-section img {
+		width: 100%;
+	}
+	.footer-widget .about-me-img img {
+		max-width: 100% !important;
+	}
+}
+
+
+/* xs */
+@media (max-width: 767px) {
+	
+	.jumbotron.home-page {
+		height: 45vh;
+		.text-center {
+			padding-right: 50%;
+		}
+	.text-center p:first-child {
+			font-size: 1.5rem;
+		}
+		.text-center p:nth-child(2),
+		.text-center p:nth-child(3) {
+			font-size: 1rem;
+		}
+	}
+	.jumbotron.about-page, .jumbotron.contact-page{
+		height: 43vh;
+			p {
+				font-size: 4.5rem;
+			}
+	}
+
+	.jumbotron.work-with-me-page  {
+		height: 40vh;
+		p {
+			font-size: 3rem;
+			margin-top: 90px;
+			margin-right:305px
+		}
+	}
+	
+
+	.btn-group-lg > .btn, .btn-lg {
+		font-size: 1.2rem;
+		padding: 15px 30px;
+	}
+
+	.nav>li>a {
+		padding: 10px 30px;
+	}
+	.navbar-brand {
+		height: 75px;
+		img {
+			height: 50px;
+		}
+	}
+	.show-search {
+		top: 80px;
+	}
+	.menu-left {
+		float: none;
+	}
+	.icon-right {
+		float: left;
+		margin-left: -17px;
+	}
+	.i_con {
+		// float: left;
+		// margin-left: -17px;
+		text-align: center;
+	}
+	.i_con a i {
+		font-size: 15px;
+		padding: 15px 5px;
+		color: #AAAAAA;
+		line-height: 24px;
+	}
+	.main-menu ul .sub-menu,
+	.main-menu ul .children {
+		left: 120px;
+		top: 17px;
+	}
+	.main-menu .navbar-brand>img {
+		padding: 0;
+	}
+	.navbar-header {
+		padding: 15px 0;
+	}
+	.main-menu li {
+		display: block;
+	}
+	.navbar-default .navbar-nav>li>a {
+		line-height: 22px;
+		text-align: center;
+	}
+	.footer-instagram-section img {
+		width: 100%;
+	}
+	.latest-first-thumb img,
+	.about-me-img img,
+	.single-blog-box img,
+	.widget img,
+	.single-promo-box img {
+		width: 100%;
+	}
+	.footer-widget .about-me-img img {
+		max-width: 100% !important;
+	}
+	.single-blog-box .promo-text p {
+		padding-top: 12%;
+	}
+}
+
+
+/* XS Portrait */
+
+@media (max-width: 479px) {
+
+.jumbotron.home-page .text-center {
+	padding-right: 28%;
+}
+
+
+.sidebar .read-1 img {
+	width: 44%;
+}
+
+.sidebar .read-2 img {
+	width: 21%;
+}
+
+.sidebar .read-3 img {
+	width: 44%;
+}
+
+.sidebar .read-4 img {
+	width: 44%;
+}
+
+
+// Index header
+	.jumbotron.home-page .text-center p:nth-child(2), .jumbotron.home-page .text-center p:nth-child(3), .jumbotron.home-page .text-center p:nth-child(5) {
+		font-size: 1.2rem;
+	}
+
+	.subscribe-form .input-group-btn .btn, .input-group .form-control {
+		font-size: 1rem;
+	}
+	
+.subscribe-form .input-group-btn .btn {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
+	height: 33px;
+}
+
+
+	.jumbotron.home-page, .jumbotron.contact-page {
+		height: 37vh;
+		p {
+			font-size: 1.5rem;
+		}
+	}
+
+
+.jumbotron.contact-page {
+		height: 37vh;
+			p {
+				font-size: 3rem;
+			margin-top: 50px;
+			margin-left: 200px;
+		}
+	
+}
+
+
+.jumbotron.about-page {
+		height: 37vh;
+		p {
+			font-size: 3rem;
+			margin-top: 100px;
+			margin-right: 150px;
+		}
+}
+
+
+	.jumbotron.work-with-me-page {
+		height: 33vh;
+		p {
+			margin-top: 125px;
+			margin-right: 0;
+		}
+	}
+
+	.btn-group-lg>.btn,
+	.btn-lg {
+		font-size: 0.7rem;
+		padding: 10px;
+	}
+	.jumbotron p {
+		margin-bottom: 0;
+	}
+	.top-comment h3 {
+		font-size: 2rem;
+	}
+	.navbar-brand {
+		height: 75px;
+		img {
+			height: 50px;
+		}
+	}
+}
