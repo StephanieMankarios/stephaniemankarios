@@ -462,6 +462,9 @@ a.more-link:hover {
 .post-content {
     padding: 0 43px;
     overflow: hidden;
+    h6 {
+        color: $primary-color;
+    }
 }
 
 .post .social-share {
