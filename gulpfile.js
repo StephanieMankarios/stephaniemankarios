@@ -44,7 +44,7 @@ gulp.task('scripts', function () {
  *-----------------------------------------------------------------*/
 gulp.task('nunjucks', function () {
 	// Gets .html and .nunjucks files in pages
-	return gulp.src('src/assets/pages/*.+(njk|nunjucks|html)')
+	return gulp.src('src/assets/pages/*.+(html|njk|nunjucks)')
 		// Adding data to Nunjucks
 		// .pipe(data(function () {
 		// 	return require('./src/data.json')
@@ -155,7 +155,7 @@ gulp.task('watch', function () {
 	gulp.watch('src/assets/js/scripts.js', ['scripts']);
 	gulp.watch('src/assets/scss/*.scss', ['styles']);
 	gulp.watch('src/**/*.html', ['html']);
-	gulp.watch('src/assets/**/*.njk', ['nunjucks']);
+	gulp.watch('src/assets/**/*.html', ['nunjucks']);
 });
 
 /*-----------------------------------------------------------------
