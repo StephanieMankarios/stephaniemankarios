@@ -1,0 +1,79 @@
+<!-- blog.html -->
+{% extends "layout.html" %} 
+
+
+{% block content %}
+
+<!--main content start-->
+<div class="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+
+
+
+            <!-- Welcome To My Blog -->
+            <article class="post">
+            <div class="post-thumb">
+                <img src="assets/images/blog/welcome-to-my-blog.jpg" alt="">
+
+                <a href="welcome-to-my-blog.html" class="post-thumb-overlay text-center">
+                <div class="text-uppercase text-center">View Post</div>
+                </a>
+            </div>
+            <div class="post-content">
+                <header class="entry-header text-center text-uppercase">
+                <h6>Spirituality</h6>
+
+                <h1 class="entry-title"><a href="welcome-to-my-blog.html">welcome to my blog!</a></h1>
+                </header>
+                <div class="entry-content">
+                <h4>Hi friend, welcome to my blog!</h4>
+
+                <p>I am so excited to be able to share things with you here.</p>
+                <p>This is a sacred space where you can share and comment in the sections below the posts.</p>
+                <p>I have so much information to share, but if you wish to read about a specific topic, please feel free to send me a
+                    note and I'll see what I can do. </p>
+                <p>What you can expect: </p>
+
+
+                            <ul>
+                                <li><i class="fa fa-heart" aria-hidden="true"></i> <span>Content that will be interesting and informative </span></li>
+                                <li><i class="fa fa-heart" aria-hidden="true"></i> <span>Thought-provoking content </span></li>
+                                <li><i class="fa fa-heart" aria-hidden="true"></i> <span>A little about me</span> </li>
+                                <li><i class="fa fa-heart" aria-hidden="true"></i> <span>Blog posts once a week </span></li>
+                                <li><i class="fa fa-heart" aria-hidden="true"></i> <span>Posts that will ... </span></li>
+                            </ul>
+
+                            <div class="btn-continue-reading text-center text-uppercase">
+                                <a href="welcome-to-my-blog.html" class="more-link">Continue Reading</a>
+                            </div>
+                        </div>
+                        <div class="social-share">
+                        </div>
+                    </div>
+                </article>
+
+
+                <ul class="pagination">
+                    <li> <a href="/blog.html">1</a></li>
+                    <li class="active"><a href="/blog-2.html">2</a></li>
+                    <!--<li><a href="index.html#">3</a></li>-->
+                    <!--<li><a href="index.html#">4</a></li>-->
+                    <li><a href="index.html#"><i class="fa fa-angle-double-right"></i></a></li>
+                </ul>
+            </div>
+
+
+
+      {% include "partials/sidebar.html" %}
+
+        </div>
+    </div>
+</div>
+<!-- end main content-->
+
+
+
+
+{% endblock %}
