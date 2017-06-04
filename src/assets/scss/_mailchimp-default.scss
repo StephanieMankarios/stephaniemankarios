@@ -263,8 +263,12 @@
 
 #mc_embed_signup input {
   border-radius: 20px;
-
 }
+
+#mc_embed_signup .mc-field-group input {
+  text-indent: 5%;
+}
+
 #mc_embed_signup input.email {
   font-family: "libre-baskerville-regular", serif;
 }
