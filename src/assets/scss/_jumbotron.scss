@@ -1,77 +1,59 @@
-
 .jumbotron.home-page {
-	background-image: url("../images/photos/hero-home.jpg");
-//	background-attachment: fixed;
-		background-size: 100% auto;
-	background-repeat: no-repeat;
-	height: 130vh;
-//	min-height: 400px;
-	margin-top: 0px;
-	margin-bottom: 8px;
+  background-image: url("../images/photos/hero-home.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 130vh;
+  margin-top: 0px;
+  margin-bottom: 8px;
   font-family: libre-baskerville-regular;
   a {
-			background-color: $primary-color;
-			border-color: $primary-color;
-		}
+    background-color: $primary-color;
+    border-color: $primary-color;
+  }
   .btn-primary:hover {
     background-color: $dark;
   }
 }
 
 .jumbotron.about-page {
-	background-image: url("../images/photos/about-top.jpg");
-//	background-attachment: fixed;
-		background-size: 100% auto;
-	background-repeat: no-repeat;
-	height: 130vh;
-//	min-height: 400px;
-	margin-top: 0px;
-	margin-bottom: 8px;
-	p {
-	font-size: 7rem;
-  font-family: libre-baskerville-regular;
-	}
+  background-image: url("../images/photos/about-top.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 130vh;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  p {
+    font-size: 7rem;
+    font-family: libre-baskerville-regular;
+  }
 }
 
 .jumbotron.contact-page {
-		background-image: url("../images/photos/contact.jpg");
-		background-size: 100% auto;
-	background-repeat: no-repeat;
-	height: 130vh;
-	margin-top: 0px;
-	margin-bottom: 8px;
-	p {
-	font-size: 7rem;
-  font-family: libre-baskerville-regular;
-	}
+  background-image: url("../images/photos/contact.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 130vh;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  p {
+    font-size: 7rem;
+    font-family: libre-baskerville-regular;
+  }
 }
-
 
 .jumbotron.work-with-me-page {
-		background-image: url("../images/photos/work-with-me.jpg");
-//	background-attachment: fixed;
-		background-size: 100% auto;
-	background-repeat: no-repeat;
-	height: 100vh;
-	margin-top: 0px;
-	margin-bottom: 8px;
-	p {
-	font-size: 7rem;
-  font-family: libre-baskerville-regular;
-	// padding-top: 50vh;
-	}
-
+  background-image: url("../images/photos/work-with-me.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  p {
+    font-size: 7rem;
+    font-family: libre-baskerville-regular;
+  }
 }
-
-
-
-
-
-
 
 .navbar {
-	margin-bottom: 0;
-//	background-color: white;
+  margin-bottom: 0;
 }
-
-

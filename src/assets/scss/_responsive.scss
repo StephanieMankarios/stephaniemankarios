@@ -1,24 +1,25 @@
-/* lg */
-
+/* ---------------------------------------------
+   LARGE
+   --------------------------------------------- */
 @media (min-width: 1400px) {
 	.index-header {
 	margin-top: 120px;
 	}
 	
 	.jumbotron.home-page {
-		min-height: 900px;
-		.text-center p:first-child {
+		max-height: 900px;
+		.header-text p:first-child {
 			font-size: 5rem;
 			line-height: 6.5rem;
 			}
-			.text-center p:nth-child(2), .text-center p:nth-child(3) {
-				font-size: 3rem;
+			.header-text p:nth-child(2), .header-text p:nth-child(3) {
+				font-size: 2rem;
 				line-height: 4.5rem;
 			}
 	}
 
 	.jumbotron.about-page {
-		min-height: 900px;
+		max-height: 900px;
 		p {
 			margin-top: 350px;
 			margin-right: 300px;
@@ -26,7 +27,7 @@
 	}
 
 	.jumbotron.contact-page {
-		min-height: 900px;
+		max-height: 900px;
 		p {
 			font-size: 8rem;
 			margin-top: 200px;
@@ -35,7 +36,7 @@
 	}
 
 	.jumbotron.work-with-me-page {
-		min-height: 800px;
+		max-height: 800px;
 		p {
 			font-size: 6.5rem;
 			margin-top: 465px;
@@ -60,32 +61,34 @@
 }
 
 
-/* lg/md */
+/* ---------------------------------------------
+   LARGE/MEDIUM
+   --------------------------------------------- */
 /* 1366 x 768 */
 @media (min-width: 1200px) and (max-width: 1399px) {
-	.index-header {
-	margin-top: 120px;
-	}
 	
 	.navbar-brand img {
 		height: 60px;
 	}
 
 		.jumbotron.home-page {
-			min-height: 900px;
-			.text-center p:first-child {
+			max-height: 500px;
+			.index-header {
+				margin-top: 120px;
+				}
+			.header-text p:first-child {
 				font-size: 5rem;
 				line-height: 6.5rem;
 			}
-			.text-center p:nth-child(2),
-			.text-center p:nth-child(3) {
-				font-size: 3rem;
+			.header-text p:nth-child(2),
+			.header-text p:nth-child(3) {
+				font-size: 2rem;
 				line-height: 4.5rem;
 			}
 		}
 
 .jumbotron.about-page {
-	min-height: 900px;
+	max-height: 900px;
 		p {
 		margin-top: 350px;
 		margin-right: 300px;
@@ -93,7 +96,7 @@
 }
 
 	.jumbotron.contact-page {
-		min-height: 900px;
+		max-height: 900px;
 			p {
 			margin-top: 200px;
 			margin-left: 800px;
@@ -101,7 +104,7 @@
 	}
 
 	.jumbotron.work-with-me-page {
-		min-height: 800px;
+		max-height: 800px;
 		p {
 			font-size: 6.5rem;
 			margin-top: 455px;
@@ -119,7 +122,9 @@
 }
 
 
-/* md */
+/* ---------------------------------------------
+	MEDIUM
+  ---------------------------------------------- */
 
 @media (min-width: 992px) and (max-width: 1199px) {
 .index-header {
@@ -128,14 +133,14 @@
 	}
 	
 	.jumbotron.home-page {
-		height: 78vh;
-		.text-center p:first-child {
+		height: 71vh;
+		.header-text p:first-child {
 			font-size: 4rem;
 			line-height: 5.5rem;
 		}
-		.text-center p:nth-child(2),
-		.text-center p:nth-child(3) {
-			font-size: 3rem;
+		.header-text p:nth-child(2),
+		.header-text p:nth-child(3) {
+			font-size: 2rem;
 			line-height: 4.5rem;
 		}
 	}
@@ -184,7 +189,9 @@
 }
 
 
-/* sm */
+/* ---------------------------------------------
+   SMALL
+   --------------------------------------------- */
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.index-header {
@@ -196,15 +203,14 @@
 	}
 
 	.jumbotron.home-page {
-		height: 50vh;
-	.text-center p:first-child {
+		max-height: 510px;
+	.header-text p:first-child {
 			font-size: 3rem;
 			// line-height: 5.5rem;
 		}
-		.text-center p:nth-child(2),
-		.text-center p:nth-child(3) {
-			font-size: 2rem;
-			// line-height: 4.5rem;
+		.header-text p:nth-child(2),
+		.header-text p:nth-child(3) {
+			font-size: 1.5rem;
 		}
 	}
 
@@ -262,15 +268,8 @@
 		text-align: center;
 		width: 100%;
 	}
-	// .nav > li > a {;
-	//     padding: 11px;
-	// }
 	.nav>li>a {
-		// position: relative;
-		// display: block;
 		padding: 45px 30px 0px 30px;
-		// font-size: 12px;
-		// letter-spacing: 1px;
 	}
 	.i_con {
 		float: none;
@@ -307,22 +306,44 @@
 }
 
 
-/* xs */
+/* ---------------------------------------------
+   EXTRA SMALL
+   --------------------------------------------- */
 @media (max-width: 767px) {
 	
 	.jumbotron.home-page {
 		height: 45vh;
-		.text-center {
+		.header-text {
 			padding-right: 50%;
 		}
-	.text-center p:first-child {
-			font-size: 1.5rem;
-		}
-		.text-center p:nth-child(2),
-		.text-center p:nth-child(3) {
-			font-size: 1rem;
-		}
+		.header-text p:first-child {
+				font-size: 1.5rem;
+			}
+			.header-text p:nth-child(2) {
+				font-size: 1rem;
+			}
+			.header-text p:nth-child(4) {
+				font-size: 1rem;
+			}
+			#mc_embed_signup .mc-field-group input, #mc_embed_signup input.email {
+				font-size: 1rem;
+				padding: 0;
+			}
+			#mc_embed_signup .mc-field-group {
+				max-height: 0;
+			}
+			#mc_embed_signup .button {
+				font-size: 1rem;
+			}
 	}
+
+
+
+
+
+
+
+
 	.jumbotron.about-page, .jumbotron.contact-page{
 		height: 43vh;
 			p {
@@ -412,11 +433,13 @@
 }
 
 
-/* XS Portrait */
+/* ---------------------------------------------
+   EXTRA SMALL PORTRAITS
+   --------------------------------------------- */
 
 @media (max-width: 479px) {
 
-.jumbotron.home-page .text-center {
+.jumbotron.home-page .header-text {
 	padding-right: 28%;
 }
 
@@ -439,7 +462,7 @@
 
 
 // Index header
-	.jumbotron.home-page .text-center p:nth-child(2), .jumbotron.home-page .text-center p:nth-child(3), .jumbotron.home-page .text-center p:nth-child(5) {
+	.jumbotron.home-page .header-text p:nth-child(2), .jumbotron.home-page .header-text p:nth-child(3), .jumbotron.home-page .header-text p:nth-child(5) {
 		font-size: 1.2rem;
 	}
 
